@@ -1,0 +1,104 @@
+# FAIR-Prinzipien berücksichtigen {#sec-fair}
+
+Die FAIR-Prinzipien sind Richtlinien für die Speicherung und Veröffentlichung wissenschaftlicher Daten. Einen guten Einstieg bieten @noauthor_data_2017 und @wilkinson_fair_2016. 
+
+Daten sollen auffindbar, zugänglich, interoperabel und wiederverwertbar sein. Diese vier Eigenschaften werden auf 15 [FAIR-Prinzipien](https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/faire-daten/) abgebildet. Auf der Ebene der vier grundlegenden Eigenschaften bietet Ihnen dieses Kapitel aber einen ersten Einstieg.
+
+::: {.callout-note}
+In @sec-appendix-fair-checklist finden Sie eine Checkliste der 15 FAIR-Prinzipien in einfachem [Markdown-Textormat](https://www.markdownguide.org/basic-syntax/).
+:::
+
+## Findable: DOI und Metadaten ergänzen
+
+Die Verwendung von Zenodo zur Vergabe eines digitalen Objektbezeichners (DOI, siehe auch @noauthor_doi_2023) und zur Nutzung von Metadaten sollte im Datenmanagementplan dokumentiert sein. Um die Auffindbarkeit der Daten noch weiter zu verbessern, können Sie folgende Punkte adressieren:
+
+  - Hinterlegen Sie Metadaten in einem standardisierten Format. Bekannte Formate sind z. B. [DataCite](https://schema.datacite.org/) oder [Dublin Core](https://www.dublincore.org/).
+  
+  - Machen Sie Angaben zu üblichen Schlagwörtern und standardisierten Vokabularen zu Ihrem Fachgebiet.
+    
+**Ergänzen Sie bei Bedarf im DMP:** 
+
+```md
+**Auffindbarkeit der Daten:**
+  - DOI wird über Zenodo vergeben.  
+  - Metadaten nach DataCite-Standard: Titel, Autor, Datum, Lizenz, Beschreibung  
+  - Schlagwörter: [Themenrelevante Begriffe, z. B. "Machine Learning", "Umweltdaten"]
+```
+
+## Findable: Suchmaschinen unterstützen
+
+- GitHub-Projekte werden in der Regel von GitHub automatisch indexiert, so dass sie besser gefunden werden können. 
+  
+- Zusätzlich sollten Sie keine unnötigen `.gitignore`-[Einstellungen](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) verwenden.
+
+## Accessible: Langfristige Zugänglichkeit sicherstellen
+
+- Ergänzen Sie im Datenmanagementplan explizit Angaben zur langfristigen Speicherung über Zenodo und dass die Daten öffentlich zugänglich sind ([Open Access](https://de.wikipedia.org/wiki/Open_Access)).
+
+- Zeitliche Einschränkungen des Zugriffs können über die den so genannten [Embargo-Status](https://about.zenodo.org/policies/) in Zenodo geregelt werden.
+
+**Ergänzen Sie bei Bedarf im DMP:** 
+
+```md
+**Zugänglichkeit:**  
+  - Die Daten sind über Zenodo öffentlich zugänglich (Open Access).  
+  - DOI garantiert die dauerhafte Verfügbarkeit.  
+  - Einschränkungen des Zugriffs werden über Embargo-Status Optionen von Zenodo geregelt.
+```
+
+## Interoperable: Datenformate und Standards beschreiben
+
+- Verwenden Sie für Ihre Daten Dateiformate, die eine möglichst einfache maschinelle Verarbeitung erlauben. 
+
+	- Es bieten sich offene Formate wie z. B. CSV gemäß @hausenblas_uri_2014 und JSON gemäß @charollais_ecma-404_nodate an.
+
+  - Verzichten Sie auf proprietäre Formate wie z. B. Microsoft Excel (`.xlsx`-Dateien).
+
+- Nennen Sie die verwendeten Standards für Daten und Metadaten wie z. B. [DataCite](https://schema.datacite.org/) und [JSON-Schema](https://json-schema.org/).
+
+- Nennen Sie Ontologien oder kontrollierte Vokabulare zur Standardisierung von Fachbegriffen, z. B. [MeSH](https://www.nlm.nih.gov/mesh/meshhome.html), [AGROVOC](https://www.fao.org/agrovoc/).
+
+**Ergänzen Sie bei Bedarf im DMP:** 
+
+```md
+**Interoperabilität:**  
+  - Daten werden in offenen Formaten gespeichert: CSV (Tabellen), JSON (strukturierte Daten)  
+  - Metadaten-Standards: DataCite für Beschreibung und DOI-Referenzierung  
+  - Ontologien oder kontrollierte Vokabulare zur Standardisierung von Begriffen: Verwendung von [z. B. MeSH, AGROVOC] 
+```
+
+## Reusable: Dokumentation und Lizenzierung beschreiben
+
+Ohne Angabe einer Lizenz können Ihre Daten nicht weiterverwendet werden. Weit verbreitet und üblich sind [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) für Dokumente und die [MIT-Lizenz](https://opensource.org/license/mit) für ausführbaren Programmcode und Softwareprojekte. 
+
+Als recht freizügige Lizenz bietet die MIT-Lizenz ein geringes Risiko im Zusammenspiel mit anderen Lizenzen. Beispielsweise erlaubt sie die Wiederverwendung von Code in proprietärer Software. Creative-Commons-(CC)-Lizenzen sind dagegen nicht für die Nutzung in Software oder Hardware empfohlen (@bals_top_2024). 
+
+Da Veröffentlichungen von Forschungsdaten häufig auch ausführbaren Code beinhalten, bevorzugen wir im Zweifelsfall die MIT-Lizenz.
+
+**Ergänzen Sie bei Bedarf im DMP:** 
+
+```md
+**Wiederverwendbarkeit:**  
+  - Lizenz: MIT (erlaubt die Nachnutzung auch in proprietärer Software unter der Bedingung der Namensnennung)  
+  - Vollständige Dokumentation der Daten: Methoden, Kontext, verwendete Software (z. B. Python-Skripte mit spezifischen Bibliotheksversionen)
+  - README-Datei enthält Anleitungen für die Nachnutzung.
+```
+
+## README-Datei und Metadaten
+
+- Falls Metadaten generiert werden, kann dies in der README-Datei ergänzt werden (z. B. `metadata.txt` wird automatisch erzeugt). 
+
+- Python-Skripte oder die Zenodo-API könnten Ihnen dabei helfen.
+
+**Ergänzen Sie bei Bedarf in der README-Datei:**
+
+```md
+## Metadata
+The dataset is described using the DataCite metadata schema. Key elements include:  
+  - **Title**: Title of the dataset.  
+  - **Author(s)**: Name(s) of the contributors.  
+  - **Keywords**: Relevant keywords for discoverability.  
+  - **Description**: Detailed dataset description, including methodology and tools.  
+  - **License**: MIT  
+  - **DOI**: [Zenodo DOI link].
+```

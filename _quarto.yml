@@ -1,0 +1,133 @@
+# Project configuration
+project:
+  type: book
+  output-dir: ./docs
+  
+# Book definition
+book:
+  title: "Veröffentlichung von Forschungsdaten"
+  author:
+    - name: Prof. Dr.-Ing Stefan Gudenkauf 
+      email: stefan.gudenkauf@jade-hs.de
+      url: https://www.jade-hs.de/team/stefan-gudenkauf/
+      affiliation: Jade University of Applied Sciences
+      affiliation-url: https://www.jade-hs.de/
+      orcid: 0000-0002-1813-3448
+  date: "02/08/2025"
+  date-format: "D. MMMM YYYY"
+  
+  chapters:
+    - index.qmd
+    - 01_Grundlagen.qmd
+    - 02_DMP.qmd
+    - 03_FAIR.qmd
+    - 04_SemVer.qmd
+    - 05_Fazit.qmd
+    - appendix.qmd
+    - references.qmd
+  
+  output-file: "Gudenkauf_RDM_2025"
+
+  sidebar:
+    logo: img/Logo_JadeUniversity.jpg
+    style: "docked"
+    background: white
+    search: false
+
+  downloads:
+    - pdf
+
+# References
+crossref:
+  fig-prefix: Abbildung   # default is "Figure"
+  tbl-prefix: Tabelle     # default is "Table"
+  chapters: true          # top-level headings correspond to chapters
+
+# Bibliography
+bibliography: references.bib
+#csl: assets/ieee.csl
+csl: assets/din-1505-2.csl # closest to GI LNI citation style 
+number-sections: true
+highlight-style: github
+citation: true
+
+# Export formatting
+format:
+  
+  html:
+    lang: de
+    theme: lumen # simplex # united
+    page-layout: full
+    smooth-scroll: true
+    html-math-method: katex
+    page-navigation: true
+    embed-resources: true
+    fontsize: 1.0em
+    linestretch: 1.3
+    code-line-numbers: true
+
+    # Links to related data
+    #other-links:
+    #  - text: NASA Open Data
+    #    href: https://data.nasa.gov/
+    #  - text: Your Own Data
+    #    href: ./../data/yours.csv
+    
+    # Links to your program code
+    #code-links:
+    #  - text: Your Data Import Program
+    #    icon: file-code
+    #    href: ./../code/data-import.py
+
+  pdf:
+    lang: de
+    documentclass: scrbook
+    keep-tex: true
+    include-in-header: 
+      text: |
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+          commandchars=\\\{\},
+          breaklines, breaknonspaceingroup, breakanywhere
+        }
+
+    # Table of contents
+    toc: true
+    toc-depth: 3
+    toc-title: "Inhaltsverzeichnis"
+    lof: true
+    lot: true
+
+    # Fonts
+    fontsize: 11pt
+    linestretch: 1.0 
+    sansfont: "Lato" # "Franklin Gothic Book" 
+    mainfont: "Lato" # "Franklin Gothic Book" 
+    monofont: "Consolas" 
+    monofontoptions: 
+      - Scale=0.9
+
+    # Page setup
+    geometry: 
+      - margin=1in
+      - heightrounded
+    papersize: a4
+    colorlinks: true
+    # linkcolor: RoyalBlue
+    code-line-numbers: true
+
+    # Title page
+    template-partials:
+      - assets/before-body.tex
+    logo: img/Logo_JadeHochschule.jpg
+    info:
+      - "Ein Leitfaden mit Markdown für GitHub und Zenodo"
+    genre-text: "Dieses Dokument wurde gefördert durch das Niedersächsische Ministerium für Wissenschaft und Kultur mit Mitteln aus dem Programm zukunft.niedersachsen der VolkswagenStiftung. Projekt Data Driven Health (DEAL)"
+    genre: "v1.0.0"
+    lab: Institut für Wirtschaftsinformatik (IfW)
+    department: Fachbereich Management, Information, Technologie 
+    university: Jade Hochschule
+
+# More Infos:
+#   - https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/
+#   - https://quarto.org/docs/reference/projects/books.html

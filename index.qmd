@@ -1,0 +1,8 @@
+
+## Abstract {-}
+
+Dieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Entweder stehen Sie direkt vor der Veröffentlichung eines neuen Datensatzes oder Sie möchten die Daten zu einer bereits bestehenden Veröffentlichung nachträglich zugänglich machen. Vielleicht sind sie auch im Rahmen einer Förderung durch Dritte dazu angehalten, Ihre Daten zu veröffentlichen. Dieses Dokument möchte Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand professionell umzusetzen.
+
+This document is intended for researchers at institutions with limited resources for research data management. You may be about to publish a new dataset or looking to make data from an existing publication publicly accessible. Perhaps you are required to share your data as part of a third-party funding agreement. This document aims to help you achieve this professionally with minimal personal effort.
+
+**Keywords:** research data management, data management plan, semantic versioning, fair principles, rdm tools

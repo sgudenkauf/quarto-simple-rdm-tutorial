@@ -1,0 +1,27 @@
+# Ein einfacher Datenmanagementplan {#sec-dmp}
+
+Ein Datenmanagementplan (DMP) beschreibt, wie Daten gesammelt, gespeichert, dokumentiert und geteilt werden sollen. Fördergeber erwarten von Ihnen zunehmend die Erstellung und Fortführung solcher Pläne im Rahmen der Beantragung und Durchführung Ihrer Forschungsprojekte. Inhaltlich sollten folgende Punkte beschrieben werden:
+
+1. Projektbeschreibung und Zielsetzung
+
+2. Arten und Umfang der Daten
+
+3. Speicherung und Sicherung
+
+4. Dokumentation und Metadaten
+
+5. Veröffentlichung und Nachnutzung
+
+6. Verantwortlichkeiten und Ressourcen
+
+7. Ethik und Datenschutz
+
+8. Aktualisierungen des Plans
+
+Speichern Sie die Daten in offenen, maschinenlesbaren Formaten wie CSV (für Tabellen) oder JSON (für strukturierte Daten), um Interoperabilität und Wiederverwendbarkeit sicherzustellen.
+
+::: {.callout-note}
+In @sec-appendix-dmp finden Sie das Beispiel eines Datenmanagementplans in einfachem [Markdown-Textormat](https://www.markdownguide.org/basic-syntax/). Er beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.
+:::
+
+

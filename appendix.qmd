@@ -1,0 +1,199 @@
+
+# Anhang {.appendix}
+
+## README-Datei für GitHub-Repository: `README.md` {#sec-appendix-readme}
+
+```md
+# Project Name - Dataset
+
+## Overview
+This repository contains the dataset used in the research article:  
+**"Title of the Paper"**, published in *Journal Name*.  
+DOI of the article: [Link to Paper DOI]  
+
+## Dataset Description
+- **Raw Data**: `/raw_data/` contains the original data collected during the study.  
+- **Processed Data**: `/processed_data/` contains cleaned and analyzed data.  
+- **Scripts**: `/scripts/` includes scripts used for data analysis.
+
+## How to Use
+1. Clone this repository: `git clone https://github.com/username/projectname-dataset.git`
+2. Navigate through the folders for relevant files.  
+3. Refer to `metadata.txt` for detailed descriptions of the dataset and methodology.
+
+## Citation
+If you use this dataset, please cite:  
+- **Dataset**: [DOI provided by Zenodo]  
+- **Paper**: [Paper DOI]
+
+## License
+This dataset is licensed under [LICENSE NAME]. See `LICENSE` file for details.
+```
+
+## Datenmanagementplan: `DMP.md` {#sec-appendix-dmp}
+
+```md
+# Datenmanagementplan (DMP)
+
+## 1. Projektbeschreibung
+**Projektname**: [Titel des Forschungsprojekts]  
+**Verantwortliche*r Forschende*r**: [Ihr Name]  
+**Institution**: [Name der Hochschule oder Forschungseinrichtung]  
+**Förderorganisation (falls zutreffend)**: [Förderorganisation, z. B. DFG]  
+
+### Ziel des Projekts
+[Kurze Beschreibung des Projekts, z. B.:  
+"Dieses Projekt untersucht [Thema]. Die generierten Daten dienen als Grundlage für die Publikation im Journal [Name] und werden gemäß den FAIR-Prinzipien öffentlich zugänglich gemacht."]
+
+## 2. Arten und Umfang der Daten
+**Datentypen**:  
+- [Primärdaten, z. B. experimentelle Messdaten, Umfrageergebnisse, Bilddaten]  
+- [Sekundärdaten, z. B. aus Literatur oder externen Datenquellen]  
+- [Metadaten, z. B. Dokumentation, Kontextbeschreibungen]  
+
+**Umfang der Daten**:  
+- Geschätzte Dateigröße: [z. B. 500 MB]  
+- Anzahl der Dateien: [z. B. 30 CSV-Dateien]  
+
+**Dateiformate**:  
+- Rohdaten: [z. B. CSV, TIFF]  
+- Analysedaten: [z. B. XLSX, JSON]  
+- Dokumentation: [z. B. Markdown, PDF]
+
+## 3. Speicherung und Sicherung
+**Speicherorte**:  
+- **Primäre Speicherung**: GitHub-Repository ([Link hinzufügen])  
+- **Backup-Strategie**: Automatische Sicherung auf lokalen Systemen, Cloud-Diensten (z. B. [Google Drive, OneDrive]), o.a.  
+
+**Versionierung**:  
+- Git wird zur Versionierung und Nachverfolgung von Änderungen verwendet.
+
+**Zugriffsrechte während des Projekts**:  
+- Nur Projektbeteiligte haben während der Erstellung Schreibrechte.  
+- GitHub ermöglicht eine öffentliche Einsicht nach Abschluss des Projekts.
+
+## 4. Dokumentation und Metadaten
+**Metadatenformat**:  
+- [z. B. DataCite, Dublin Core]  
+
+**Beschreibung der Daten**:  
+- Jede Datei wird durch eine README-Datei dokumentiert, die Informationen über:  
+   - Den Inhalt  
+   - Die Erhebungsmethodik  
+   - Verwendete Software oder Tools enthält.  
+
+**DOI-Zuweisung**:  
+- Die Veröffentlichung erfolgt mit einem DOI über Zenodo.
+
+## 5. Veröffentlichung und Nachnutzung
+**Geplante Veröffentlichung**:  
+- Veröffentlichung auf GitHub und Zenodo nach Akzeptanz des zugehörigen Papers.  
+
+**Lizenzierung**:  
+- CC-BY 4.0 empfohlen für maximale Nachnutzung  
+- (Alternativen: CC-BY-NC 4.0, CC0, MIT-Lizenz)
+
+**Zugänglichkeit**:  
+- Vollständig öffentlich.  
+- Einschränkungen: Keine.  
+
+**Langfristige Archivierung**:  
+- Zenodo garantiert die Archivierung für mindestens 20 Jahre.
+
+## 6. Verantwortlichkeiten und Ressourcen
+**Datenverantwortliche/r**:  
+- [Ihr Name]  
+
+**Zusätzliche Ressourcen**:  
+- Genutzte Software: [z. B. Python, R]  
+- Infrastruktur: GitHub, Zenodo.  
+
+## 7. Ethik und Datenschutz
+**Datenschutzanforderungen**:  
+- Keine personenbezogenen Daten enthalten.  
+- Sensible Daten wurden entfernt oder anonymisiert.  
+
+**Ethikfreigaben**:  
+- Nicht erforderlich. (Alternative: "Wurde durch die Ethikkommission genehmigt am [Datum].") 
+
+## 8. Aktualisierungen des Plans
+**Versionierung des DMP**:  
+- Initiale Version: [Datum]  
+- Geplante Überprüfung: [z. B. alle 6 Monate oder nach Projektmeilensteinen]
+```
+
+
+## Checkliste der FAIR-Prinzipien: `FAIR.md` {#sec-appendix-fair-checklist}
+
+```md
+# FAIR-Checkliste für GitHub & Zenodo
+
+## Findable (Auffindbar)
+- [ ] **F1**: Der Datensatz hat eine eindeutige und dauerhafte **DOI** (z. B. von Zenodo).  
+- [ ] **F2**: Metadaten enthalten einen klaren, beschreibenden **Titel** und **Schlüsselwörter**.  
+- [ ] **F3**: Der Datensatz ist in einem **offenen Repository** (GitHub & Zenodo) gespeichert.  
+- [ ] **F4**: Metadaten sind **durchsuchbar** (z. B. über Zenodo-Suchfunktionen).  
+
+## Accessible (Zugänglich)
+- [ ] **A1**: Der Datensatz ist über eine **öffentliche URL** abrufbar.  
+- [ ] **A1.1**: Daten und Metadaten sind auch nach Ablauf des Projekts verfügbar (Zenodo sichert dies). 
+- [ ] **A1.2**: **Metadaten bleiben abrufbar**, auch wenn die Daten entfernt wurden.  
+- [ ] **A2**: Falls Zugriffsbeschränkungen bestehen, sind diese klar dokumentiert.  
+
+## Interoperable (Interoperabel)
+- [ ] **I1**: Datensatz und Metadaten nutzen **offene, standardisierte Formate** (z. B. CSV, JSON, Markdown).  
+- [ ] **I2**: Metadaten enthalten **kontrollierte Vokabulare** oder **standardisierte Begriffe** (z. B. ORCID für Autoren).  
+- [ ] **I3**: Der Datensatz verlinkt relevante **Publikationen, Software oder andere Daten**.  
+
+## Reusable (Nachnutzbar)
+- [ ] **R1**: Metadaten enthalten eine **klare Lizenz** (z. B. CC-BY 4.0 oder MIT für Code).  
+- [ ] **R1.1**: Der Datenmanagementplan (DMP) beschreibt den Datensatz präzise.  
+- [ ] **R1.2**: Der Datensatz enthält eine detaillierte **README.md** zur Nutzung.  
+- [ ] **R1.3**: Die Datenquelle, Entstehung und Verarbeitungsschritte sind dokumentiert (z. B. in der README oder im DMP).  
+
+**Tipp:** Halte die README.md und Metadaten aktuell, um die FAIR-Prinzipien langfristig zu gewährleisten.  
+```
+
+## Beispiel für ein Changelog: `CHANGELOG.md`  {#sec-appendix-semver-example}
+
+Legen Sie die Datei `CHANGELOG.md` auf derselben Ordnerebene wie `README.md` an:
+
+```md
+# Changelog
+
+## v1.1.0 - 2025-01-10
+- Hinzugefügt: Neue Datenpunkte für [Experiment XYZ].
+- Geändert: Erweiterung der README mit zusätzlichen Analyseschritten.
+
+## v1.0.1 - 2024-12-20
+- Behoben: Fehler in den Variablenbeschreibungen.
+
+## v1.0.0 - 2024-12-01
+- Initiale Veröffentlichung des Datensatzes.
+```
+
+## Verwendete Softwarewerkzeuge
+
+Zur Erstellung dieses Leitfadens haben wir verschiedene Softwarewerkzeuge vrewendet. Deren Gebrauch dokumentieren wir gemäß @baresel_ki-gebrauch_2024. Genannt werden der Name des Werkzeugs, Quelle, Verwendungszweck und Anwendungsbereich.^[Wir verzichten auf die zusätzliche Nennung der "genutzten Funktion" gemäß @baresel_ki-gebrauch_2024, da sie sich aus unserer Sicht mit dem Vewendungszweck doppelt. Siehe auch Tabelle 2 in @baresel_ki-gebrauch_2024.] Die Angaben sollten den [Empfehlungen](https://apastyle.apa.org/blog/how-to-cite-chatgpt) des APA-Stils für die Angabe von Softwareversionen entsprechen.
+
+1. OpenAI. (2023). **ChatGPT** (Version 14. März) [Großes Sprachmodell]. https://chat.openai.com^[Die genaue Versionsnummer von ChatGPT ist nicht öffentlich zugänglich. Wir verwenden daher das Datum der letzten Aktualisierung als Versionsbezeichnung.] 
+
+   - Übersetzung deutsch/englisch (Abstract)
+   
+   - Generieren von Vorschlägen für Markdown-Vorlagen (Anhang, @sec-fair)
+   
+   - Generieren von Vorschlägen zu Vorgehen und Struktur (gesamtes Dokument)
+
+2. Microsoft Corporation. (2024). **Visual Studio Code** (Version 1.96.2) [Quelltext-Editor]. https://code.visualstudio.com
+
+   - Editor zum Schreiben der Quelldateien (gesamtes Projekt)
+
+3. Posit, PBC. (2024). **Quarto** (Version 1.118.0) [Dokumentations- und Publishing-Software]. https://quarto.org
+
+   - Übersetzen der Quelldateien in Webseite und PDF-Dokument, siehe Verzeichnis `docs/` (gesamtes Projekt)
+
+4. Posit, PBC. (2024). **Quarto Extension for Visual Studio Code** (Version 1.6.39) [Software-Erweiterung]. https://quarto.org/docs/tools/vscode.html
+
+   - Komfortable Bedienung von Quarto aus Visual Studio Code heraus (gesamtes Projekt)
+   
+   - Quarto-Syntaxunterstützung (gesamtes Projekt)

@@ -1,0 +1,69 @@
+$if(has-frontmatter)$
+    \frontmatter
+$endif$
+
+
+$if(title)$
+    \cleardoublepage
+    \thispagestyle{empty}
+
+    {\centering
+
+        \begin{figure}[h!]
+            \begin{center}
+                \includegraphics[width=8cm]{$logo$}
+            \end{center}
+        \end{figure}
+        
+        \vfill
+
+        {\Huge\bfseries $title$\\[5pt] } % Title and optional subtitle
+        
+        $if(subtitle)$
+            \vspace{1cm}
+            {\Large\bfseries $subtitle$ \par}
+        $endif$
+
+        \vspace{1.5cm}
+
+        $for(by-author)$
+            {\LARGE\bfseries $by-author.name.literal$}\\[5pt]
+        $endfor$
+
+        \vspace{1cm}
+
+        
+        $for(info)$
+        { $info$} \\[5pt]
+        $endfor$
+
+        $if(genre)$
+            \vspace{1cm}
+            $if(genre-text)$
+            \textsc{$genre-text$} \\[1cm]
+            $endif$
+            \textsc{\Large{{$genre$}}} \\[5pt] % Degree
+        $endif$
+        
+        \vfill
+
+        $if(lab)$
+            {$lab$}\\[5pt] % Professorship
+        $endif$
+        $if(department)$
+            {$department$}\\[5pt] % Department
+        $endif$
+        $if(university)$
+            {$university$}\\[5pt] % Professorship
+        $endif$
+
+        \vfill
+        $if(date)$
+            {$date$} % Date of submission
+        $endif$
+
+        
+    }
+$endif$
+
+\cleardoublepage

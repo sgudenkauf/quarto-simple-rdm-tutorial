@@ -1,0 +1,41 @@
+# Zusammenfassung {#sec-summary}
+
+## Anleitung zur Datenveröffentlichung
+
+  - **Plattformen:**
+  
+    - [Markdown](https://www.markdownguide.org/basic-syntax/) als Textauszeichnungssprache zur einfachen Dokumentation
+    
+    - [GitHub](https://github.com/) für die Versionierung
+    
+    - [Zenodo](https://zenodo.org/) für [DOI](https://www.doi.org/)-Vergabe und Archivierung
+
+  - **Vorgehen:** 
+  
+    1. Daten strukturieren
+    
+    2. GitHub-Repo erstellen
+    
+    3. Zenodo verknüpfen
+    
+    4. Release veröffentlichen
+
+  - **README:** Strukturierte Dokumentation der Daten und Nutzungshinweise
+  
+## Datenmanagementplan (DMP) erstellen und pflegen
+  
+  - **Metadaten:** Standardformate (z. B. [DataCite](https://schema.datacite.org/)), offene Formate ([CSV](https://datatracker.ietf.org/doc/html/rfc4180), [JSON](https://ecma-international.org/publications-and-standards/standards/ecma-404/))
+  
+  - **Lizenz:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) oder [MIT-Lizenz](https://opensource.org/license/mit) für die maximale Nachnutzung
+  
+  - **FAIR-Prinzipien:** Daten auffindbar, zugänglich, interoperabel, und wiederverwendbar gestalten
+
+## Versionierung für Forschungsdaten anpassen
+  
+  - **[Semantic Versioning](https://semver.org/) (SemVer):** 
+  
+    - `MAJOR.MINOR.PATCH` für Änderungen
+    
+    - Änderungen dokumentieren in `CHANGELOG.md`
+  
+  - **[GitHub-Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository):** Neue Versionen in GitHub erzeugen automatisch neue DOIs in Zenodo

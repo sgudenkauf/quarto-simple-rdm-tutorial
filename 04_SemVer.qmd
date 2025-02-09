@@ -1,0 +1,29 @@
+# Semantic Versioning für Forschungsdaten {#sec-semver}
+
+*Semantic Versioning* ([SemVer](https://semver.org/)) ist ein Standard für die Vergabe von Versionsnummern bei der Entwicklung von Software. Es besteht aus drei Komponenten: `MAJOR.MINOR.PATCH`. Eine typische Versionsnummer nach SemVer kann z.B. so aussehen: `v1.0.1`.
+
+::: {.callout-note}
+In @sec-appendix-semver-example finden Sie ein Beispiel für ein Changelog in einfachem [Markdown-Textormat](https://www.markdownguide.org/basic-syntax/).
+:::
+
+## Übertragung von SemVer auf Forschungsdaten
+
+SemVer eignet sich aus unserer Sicht auch sehr gut für die Veröffentlichung von Forschungsdaten. Hierzu müssen wir die Sematik der Komponenten geringfügig anpassen:
+
+- `MAJOR`: Erhöhen bei grundlegenden Änderungen, die die Abwärtskompatibilität der Forschungsdaten brechen (z. B. neue Variablenstruktur, neue Datensätze).
+
+- `MINOR`: Erhöhen bei Hinzufügungen, die abwärtskompatibel sind (z. B. neue Datenpunkte, zusätzliche Dokumentation).
+
+- `PATCH`: Erhöhen bei kleinen Korrekturen, die abwärtskompatibel sind (z. B. Fehlerkorrekturen in den Daten).
+
+## Vorgehen für die Versionierung
+
+1. **Initiale Version:** Starten Sie mit `v1.0.0` bei der ersten Veröffentlichung.
+
+2. **Dokumentation von Änderungen:** Dokumentieren Sie sämtliche Änderungen zwischen den Versionen in einem Changelog (z. B. `CHANGELOG.md`).
+
+3. **Release-Management:**
+
+   - Verwenden Sie [GitHub-Releases](https://docs.github.com/de/repositories/releasing-projects-on-github/managing-releases-in-a-repository), um neue Versionen zu kennzeichnen.
+   
+   - Die Zenodo-Integration erzeugt automatisch neue DOIs für jede Version.
