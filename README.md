@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the project sources and output files for the article:  
 **"Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo"** (german, web page and PDF document).  
-DOI of the article: [Link to Paper DOI]  
+DOI of the article: [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
 
 ## Project Description
 
@@ -72,7 +72,7 @@ quarto-simple-rdm-tutorial/
 
 ## Citation
 If you use this project, please cite:  
-- **Project**: ==DOI==
+- **Project**: [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
 - **Paper**: None yet published
 
 ## License
