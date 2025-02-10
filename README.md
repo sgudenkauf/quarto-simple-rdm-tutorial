@@ -97,3 +97,5 @@ This repository is licensed under the [MIT License](https://opensource.org/licen
 ## Acknowledgments
 
 This work was supported by the Lower Saxony Ministry for Science and Culture with funds from the governmental funding initiative zukunft.niedersachsen of the Volkswagen Foundation, project "[Data-driven health (DEAL)](https://www.jade-hs.de/forschung/forschungsprofil/strategische-projekte/data-driven-health/)".
+
+Special thanks to [Julien Vitay](https://github.com/vitay) for sharing a basic structure for creating a [thesis](https://github.com/vitay/quarto-thesis) with Quarto, based on Pandoc, Markdown and LaTeX.
