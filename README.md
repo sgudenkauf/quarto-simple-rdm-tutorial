@@ -73,11 +73,16 @@ quarto-simple-rdm-tutorial/
 
 
 ## How to Use
-1. Clone this repository: `gh repo clone sgudenkauf/quarto-simple-rdm-tutorial`
+1. Clone this repository: `gh repo clone sgudenkauf/quarto-simple-rdm-tutorial` 
+
+   Or download from GitHub: `Code > Download ZIP`  
+   (green button in the top right corner)
    
 2. Navigate through the folders and files, if your are interested in the [Quarto](https://quarto.org/) project.
 
-3. See `docs/` if you are interested in publishing research data with [Markdown](https://www.markdownguide.org/basic-syntax/) for [GitHub](https://github.com/) and [Zenodo](https://zenodo.org/). The content of the directory is a self-contained web page and a PDF document.   
+3. See `docs/` if you are interested in publishing research data with [Markdown](https://www.markdownguide.org/basic-syntax/) for [GitHub](https://github.com/) and [Zenodo](https://zenodo.org/). 
+
+  	The content of the directory is a self-contained web page and a PDF document.   
 
 4. Refer to `_quarto.yml_` for detailed descriptions of the dataset and methodology (metadata).
 
@@ -91,4 +96,4 @@ This repository is licensed under the [MIT License](https://opensource.org/licen
 
 ## Acknowledgments
 
-This work was supported by the Lower Saxony Ministry for Science and Culture with funds from the governmental funding initiative zukunft.niedersachsen of the Volkswagen Foundation, project "Data-driven health ([DEAL](https://www.jade-hs.de/forschung/forschungsprofil/strategische-projekte/data-driven-health/))".
+This work was supported by the Lower Saxony Ministry for Science and Culture with funds from the governmental funding initiative zukunft.niedersachsen of the Volkswagen Foundation, project "[Data-driven health (DEAL)](https://www.jade-hs.de/forschung/forschungsprofil/strategische-projekte/data-driven-health/)".
