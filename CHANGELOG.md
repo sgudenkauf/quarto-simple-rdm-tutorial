@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.3 - 2025-10-02
+- Updated Acknowledgments.
+
 ## v1.0.2 - 2025-10-02
 - Improved README.
 
