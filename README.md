@@ -2,8 +2,16 @@
 
 ## Overview
 This repository contains the project sources and output files for the article:  
-**"Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo"** (german, web page and PDF document).  
-DOI of the article: [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
+
+**"Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo"**  
+
+(Publishing Research Data: A Guide with Markdown for GitHub and Zenodo, german, web page and PDF document).  
+
+[![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
+
+![The article as a web page.](img/output-web.png)
+
+![The article generated as a PDF document.](img/output-pdf.png)
 
 ## Project Description
 
@@ -66,14 +74,17 @@ quarto-simple-rdm-tutorial/
 
 ## How to Use
 1. Clone this repository: `gh repo clone sgudenkauf/quarto-simple-rdm-tutorial`
-2. Navigate through the folders for relevant files.
-3. See `docs/` for the article as a self-contained web page and a PDF document.   
-4. Refer to `_quarto.yml_` for detailed descriptions of the dataset and methodology.
+   
+2. Navigate through the folders and files, if your are interested in the [Quarto](https://quarto.org/) project.
+
+3. See `docs/` if you are interested in publishing research data with [Markdown](https://www.markdownguide.org/basic-syntax/) for [GitHub](https://github.com/) and [Zenodo](https://zenodo.org/). The content of the directory is a self-contained web page and a PDF document.   
+
+4. Refer to `_quarto.yml_` for detailed descriptions of the dataset and methodology (metadata).
 
 ## Citation
 If you use this project, please cite:  
-- **Project**: [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
-- **Paper**: None yet published
+- **Project as a data set**: [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
+- **Article generated in this project**: Not separately published
 
 ## License
 This repository is licensed under the [MIT License](https://opensource.org/license/mit). See `LICENSE` file for details.
