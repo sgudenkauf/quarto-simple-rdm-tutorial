@@ -13,7 +13,7 @@ book:
       affiliation: Jade University of Applied Sciences
       affiliation-url: https://www.jade-hs.de/
       orcid: 0000-0002-1813-3448
-  date: "02/08/2025"
+  date: "02/26/2025"
   date-format: "D. MMMM YYYY"
   
   chapters:
@@ -101,9 +101,9 @@ format:
     # Fonts
     fontsize: 11pt
     linestretch: 1.0 
-    sansfont: "Lato" # "Franklin Gothic Book" 
-    mainfont: "Lato" # "Franklin Gothic Book" 
-    monofont: "Consolas" 
+    sansfont: "PT Sans Narrow" # "Franklin Gothic Book" 
+    mainfont: "PT Sans Narrow" # "Franklin Gothic Book" 
+    monofont: "Andale Mono" 
     monofontoptions: 
       - Scale=0.9
 
@@ -123,7 +123,7 @@ format:
     info:
       - "Ein Leitfaden mit Markdown für GitHub und Zenodo"
     genre-text: "Dieses Dokument wurde gefördert durch das Niedersächsische Ministerium für Wissenschaft und Kultur mit Mitteln aus dem Programm zukunft.niedersachsen der VolkswagenStiftung. Projekt Data Driven Health (DEAL)"
-    genre: "v1.0.0"
+    genre: "v1.1.0"
     lab: Institut für Wirtschaftsinformatik (IfW)
     department: Fachbereich Management, Information, Technologie 
     university: Jade Hochschule

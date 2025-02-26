@@ -18,7 +18,7 @@ Ein Datenmanagementplan (DMP) beschreibt, wie Daten gesammelt, gespeichert, doku
 
 8. Aktualisierungen des Plans
 
-Speichern Sie die Daten in offenen, maschinenlesbaren Formaten wie CSV (für Tabellen) oder JSON (für strukturierte Daten), um Interoperabilität und Wiederverwendbarkeit sicherzustellen.
+Speichern Sie die eigentlichen Forschungsdaten in **offenen, maschinenlesbaren Formaten** wie CSV (für Tabellen) oder JSON (für strukturierte Daten), um Interoperabilität und Wiederverwendbarkeit sicherzustellen. Mehr dazu finden Sie in @sec-fair.
 
 ::: {.callout-note}
 In @sec-appendix-dmp finden Sie das Beispiel eines Datenmanagementplans in einfachem [Markdown-Textormat](https://www.markdownguide.org/basic-syntax/). Er beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.

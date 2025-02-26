@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0 - 2025-26-02
+- Added information on metadata in FAIR section.
+- Added example on SemVer.
+
 ## v1.0.3 - 2025-10-02
 - Updated Acknowledgments.
 

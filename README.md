@@ -9,9 +9,14 @@ This repository contains the project sources and output files for the article:
 
 [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
 
-![The article as a web page.](img/output-web.png)
+:inbox_tray: **Download (PDF output only):** [Gudenkauf_RDM_2025.pdf](/docs/Gudenkauf_RDM_2025.pdf)
 
 ![The article generated as a PDF document.](img/output-pdf.png)
+
+There is also a **local web page** output:
+
+![The article as a web page.](img/output-web.png)
+
 
 ## Project Description
 

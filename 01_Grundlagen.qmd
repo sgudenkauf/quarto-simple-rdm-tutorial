@@ -1,22 +1,12 @@
 
 # Der Weg zur Datenveröffentlichung {#sec-foundations}
 
-Dieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Es soll Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand umzusetzen (@tbl-gqm-rdm). 
+Dieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Es soll Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand umzusetzen.^[Gem. *Goal Question Metric* (GQM) nach @basili_goal_1994] lautet die Zieldefinition: Verringerung (Zweck) des persönlichen Aufwands (Problem) zu Management von Forschungsdaten (Prozess) aus der Sicht einzelner Forschenden.]
 
-| Aspekt | Beispiel |
-|:-|:--|
-| Zweck | Verringerung |
-| Problem | des persönlichen Aufwands |
-| Objekt oder Prozess | zum Management von Forschungsdaten |
-| Sichtpunkt | aus der Sicht einzelner Forschende/r |
-
-: Zieldefinition gem. *Goal Question Metric* (GQM) von @basili_goal_1994. {#tbl-gqm-rdm}
-
-Bevor wir die einzelnen Schritte zur Veröffentlichung von Forschungsdaten durchgehen, benennen wir die grundlegenden Fragen:
+Bevor wir die einzelnen Schritte zur Veröffentlichung von Forschungsdaten durchgehen, benennen wir die **grundlegenden Fragen**:
 
 1. Wo speichere ich meine Daten?
    
-
 2. Wie verwalte ich neue Versionen meines Datensatzes?
 
 3. Wie mache ich meinen Datensatz öffentlich und referenzierbar?
@@ -25,7 +15,7 @@ Bevor wir die einzelnen Schritte zur Veröffentlichung von Forschungsdaten durch
 
 5. Wie handhabe ich die FAIR-Prinzipien um?
 
-Die Wahl der Werkzeuge beeinflusst sehr, wie aufwendig die Beantwortung dieser Fragen ist. Für diese Anleitung haben wir die Auswahl nach folgenden Kriterien getroffen:
+Die Wahl der **Werkzeuge** beeinflusst sehr, wie aufwendig die Beantwortung dieser Fragen ist. Für diese Anleitung haben wir die Auswahl nach folgenden Kriterien getroffen:
 
 1. So wenig Werkzeuge wie möglich
 
@@ -126,7 +116,7 @@ Im Rahmen dieser Anleitung empfehlen und verwenden wir GitHub Desktop (@fig-gith
    
    - Wählen Sie das Repository aus, das mit Zenodo veröffentlicht werden soll.
 
-   ![GitHub-Integration in Zenodo.](img/zenodo-settings-github.png){#fig-zenodo-settings-github width=100%}
+      ![GitHub-Integration in Zenodo.](img/zenodo-settings-github.png){#fig-zenodo-settings-github width=100%}
 
 ## Daten auf Zenodo veröffentlichen
 
@@ -136,11 +126,11 @@ Im Rahmen dieser Anleitung empfehlen und verwenden wir GitHub Desktop (@fig-gith
    
    - Erstellen Sie ein Release im GitHub-Repository: `Releases > Draft a new release` (unten rechts in @fig-github-web-overview)
 
-   ![Hauptseite eines Repositorys auf der GitHub Webseite.](img/github-web-overview.png){#fig-github-web-overview width=75%}
+      ![Hauptseite eines Repositorys auf der GitHub Webseite.](img/github-web-overview.png){#fig-github-web-overview width=75%}
    
-   - Geben Sie als *Tag* eine passende Versionsnummer (z. B. `v0.1.0`) und eine kurze Beschreibung für das Release an (@fig-github-web-release).
+   - Geben Sie als *Tag* eine passende Versionsnummer (z. B. `v1.0.0`) und eine kurze Beschreibung für das Release an (@fig-github-web-release).
 
-   ![Erstellen eines Release in einem GitHub-Repository.](img/github-web-release.png){#fig-github-web-release width=75%}
+      ![Erstellen eines Release in einem GitHub-Repository.](img/github-web-release.png){#fig-github-web-release width=75%}
 
    - Eine detaillierte Anleitung zum Erstellen eines Releases finden Sie in der  [GitHub-Dokumentation](https://docs.github.com/de/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
 
@@ -153,4 +143,5 @@ Im Rahmen dieser Anleitung empfehlen und verwenden wir GitHub Desktop (@fig-gith
 ## Veröffentlichung bekannt machen
    
    - Verweisen Sie im Paper auf die DOI des Datensatzes.   
+
    - Teilen Sie den Zenodo-Link und den DOI mit Ihrem Netzwerk.
