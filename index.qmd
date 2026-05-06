@@ -1,8 +1,33 @@
-
-## Abstract {-}
+## Abstract {.unnumbered}
 
 Dieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Entweder stehen Sie direkt vor der Veröffentlichung eines neuen Datensatzes oder Sie möchten die Daten zu einer bereits bestehenden Veröffentlichung nachträglich zugänglich machen. Vielleicht sind sie auch im Rahmen einer Förderung durch Dritte dazu angehalten, Ihre Daten zu veröffentlichen. Dieses Dokument möchte Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand professionell umzusetzen.
 
 This document is intended for researchers at institutions with limited resources for research data management. You may be about to publish a new dataset or looking to make data from an existing publication publicly accessible. Perhaps you are required to share your data as part of a third-party funding agreement. This document aims to help you achieve this professionally with minimal personal effort.
 
-**Keywords:** research data management, data management plan, semantic versioning, fair principles, rdm tools
+**Keywords:** research data management, data management plan, semantic versioning, fair principles, rdm tools, health data
+
+## Nutzungsbedingungen {.unnumbered}
+
+Dieses Werk von [Stefan Gudenkauf](https://orcid.org/0000-0002-1813-3448) steht unter der Lizenz [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Werkseintrag {.unnumbered}
+
+[BibTex](https://www.bibtex.org/de/)-Eintrag:
+
+```bibtex
+@techreport{gudenkauf_veroffentlichung_2026,
+	address = {Wilhelmshaven},
+	title = {Veröffentlichung von {Forschungsdaten}: {Ein} {Leitfaden} mit {Markdown} für {GitHub} und {Zenodo}},
+	copyright = {CC BY-SA 4.0},
+	url = {https://github.com/sgudenkauf/quarto-simple-rdm-tutorial},
+	doi = {https://doi.org/10.5281/zenodo.14840823},
+	language = {Deutsch},
+	institution = {Institut für Wirtschaftsinformatik (IfW), Jade Hochschule},
+	author = {Gudenkauf, Stefan},
+	month = may,
+	year = {2026},
+}
+```
+ Bitte geben Sie als Quellenangabe folgende Referenz an:
+
+> Gudenkauf, S. (2026). *Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo*. Institut für Wirtschaftsinformatik (IfW), Jade Hochschule. [https://doi.org/10.5281/zenodo.14840823](https://doi.org/10.5281/zenodo.14840823)

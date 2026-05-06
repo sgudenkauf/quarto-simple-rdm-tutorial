@@ -13,8 +13,9 @@ book:
       affiliation: Jade University of Applied Sciences
       affiliation-url: https://www.jade-hs.de/
       orcid: 0000-0002-1813-3448
-  date: "02/26/2025"
+  date: "05/06/2026"
   date-format: "D. MMMM YYYY"
+  license: "CC BY-SA 4.0"
   
   chapters:
     - index.qmd
@@ -22,11 +23,12 @@ book:
     - 02_DMP.qmd
     - 03_FAIR.qmd
     - 04_SemVer.qmd
-    - 05_Fazit.qmd
+    - 05_Gesundheit.qmd
+    - 06_Fazit.qmd
     - appendix.qmd
     - references.qmd
   
-  output-file: "Gudenkauf_RDM_2025"
+  output-file: "Gudenkauf_RDM_2026"
 
   sidebar:
     logo: img/Logo_JadeUniversity.jpg
@@ -103,7 +105,7 @@ format:
     linestretch: 1.0 
     sansfont: "PT Sans Narrow" # "Franklin Gothic Book" 
     mainfont: "PT Sans Narrow" # "Franklin Gothic Book" 
-    monofont: "Andale Mono" 
+    monofont: "PT Mono" 
     monofontoptions: 
       - Scale=0.9
 
@@ -114,7 +116,8 @@ format:
     papersize: a4
     colorlinks: true
     # linkcolor: RoyalBlue
-    code-line-numbers: true
+    code-line-numbers: false
+    syntax-highlighting: github
 
     # Title page
     template-partials:
@@ -123,10 +126,14 @@ format:
     info:
       - "Ein Leitfaden mit Markdown für GitHub und Zenodo"
     genre-text: "Dieses Dokument wurde gefördert durch das Niedersächsische Ministerium für Wissenschaft und Kultur mit Mitteln aus dem Programm zukunft.niedersachsen der VolkswagenStiftung. Projekt Data Driven Health (DEAL)"
-    genre: "v1.1.0"
+    genre: "v2.0.0"
     lab: Institut für Wirtschaftsinformatik (IfW)
     department: Fachbereich Management, Information, Technologie 
     university: Jade Hochschule
+
+    citation:
+      type: article-journal
+      doi: https://doi.org/10.5281/zenodo.14840823
 
 # More Infos:
 #   - https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting/

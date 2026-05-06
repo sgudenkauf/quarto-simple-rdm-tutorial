@@ -30,6 +30,7 @@ If you use this dataset, please cite:
 This dataset is licensed under [LICENSE NAME]. See `LICENSE` file for details.
 ```
 
+
 ## Datenmanagementplan: `DMP.md` {#sec-appendix-dmp}
 
 ```md
@@ -109,7 +110,6 @@ This dataset is licensed under [LICENSE NAME]. See `LICENSE` file for details.
 - Vollständige Dokumentation der Daten: [Methoden, Kontext, verwendete Software wie z. B. Python-Skripte mit spezifischen Bibliotheksversionen]
 - Anleitungen für die Nachnutzung: [z. B. siehe README-Datei]
 
-
 **Langfristige Archivierung**:  
 - Zenodo garantiert die Archivierung für mindestens 20 Jahre.
 
@@ -136,29 +136,262 @@ This dataset is licensed under [LICENSE NAME]. See `LICENSE` file for details.
 ```
 
 
+## Datenmanagementplan für deutschsprachige Gesundheitsprojekte: `DMP-health.md` {#sec-appendix-dmp-health}
+
+```md
+# Datenmanagementplan (DMP)
+
+## 1. Projektübersicht
+- Projekttitel:
+- Institution:
+- Kontakt:
+- Förderer:
+
+## 2. Datentypen
+- Datentypen: (z. B. klinische Messdaten, Fragebögen, Bilddaten)
+- Formate: (CSV, JSON, DICOM, etc.)
+- Datenvolumen:
+
+## 3. Ethik & Datenschutz
+- Ethikvotum: (ja/nein, ID)
+- Einwilligung: (ja/nein)
+  - Nachnutzung: 
+- Rechtsgrundlage: (z. B. DSGVO Art. 6/9)
+- Schutzbedarf: 
+
+## 4. Anonymisierung
+- Methode:
+  - [ ] anonymisiert
+  - [ ] pseudonymisiert
+- Schlüsselverwaltung:
+- Re-Identifikationsrisiko geprüft: ja/nein
+  - Prüfer: 
+
+## 5. Datenspeicherung & Sicherheit
+- Speicherort(e):
+- Zugriffskontrolle:
+- Backup-Strategie:
+- Verschlüsselung: ja/nein
+
+## 6. Dokumentation & Metadaten
+- Metadatenstandard:
+- Codebuch vorhanden: ja/nein
+- Variablenbeschreibung:
+
+## 7. Standards & Interoperabilität
+- Terminologien (z. B. ICD-10, SNOMED CT):
+- Datenstandards (z. B. HL7 FHIR):
+
+## 8. Versionierung
+- Versionierungsmethode: (z. B. Semantic Versioning)
+- Tools: (z. B. GitHub und Zenodo ohne sensible Daten, interne Dienste) 
+- Release-Strategie:
+
+## 9. Datenzugang & Sharing
+- Metadaten öffentlich: ja/nein
+- Datenzugang:
+  - [ ] offen
+  - [ ] kontrolliert (DUA erforderlich)
+- Kontakt für Zugang: 
+
+## 10. Langzeitarchivierung
+- Repositories: (z. B. GitHub und Zenodo ohne sensible Daten, interne Dienste) 
+- Aufbewahrungsdauer:
+- Löschkonzept:
+
+## 11. Verantwortlichkeiten
+- Datenverantwortliche:
+- FDM-Support:
+
+## 12. Rechtliches
+- Verträge (DUA, Kooperationen):
+- Einschränkungen:
+```
+
+
+## Informierte Einwilligung: `IC.md` {#sec-appendix-ic}
+
+```md
+# Informierte Einwilligung zur Teilnahme an einer Studie
+
+## 1. Projekttitel
+
+- Titel:
+- Institution:
+- Verantwortliche Person:
+- Kontakt:
+
+## 2. Hintergrund und Ziel der Studie
+
+[Kurze, verständliche Beschreibung des Zwecks der Studie.]
+
+## 3. Ablauf der Teilnahme
+
+[Kurze, verständliche Beschreibung des Ablaufs der Studie.]
+
+- Dauer:
+- Ort:
+
+## 4. Risiken und Nutzen
+
+- Mögliche Risiken:
+- Erwarteter Nutzen:
+
+## 5. Datenschutz
+
+- Art der Daten: [z. B. Gesundheitsdaten]
+- Verarbeitung: [pseudonymisiert | anonymisiert]
+- Speicherung:
+- Zugriff:
+- Weitergabe:
+
+## 6. Freiwilligkeit
+
+Die Teilnahme ist freiwillig und kann jederzeit ohne Angabe von Gründen
+beendet werden.
+
+## 7. Widerruf
+
+Ein Widerruf der Einwilligung ist jederzeit möglich.
+
+- Kontakt:
+
+## 8. Nutzung der Daten
+
+[Kurze, verständliche Beschreibung des Datennutzung.]
+
+- [ ] Zustimmung zur Nachnutzung für weitere Forschung
+- [ ] Keine Nachnutzung
+
+## 9. Veröffentlichung
+
+Ergebnisse werden nur in aggregierter Form veröffentlicht.
+
+## 10. Einwilligungserklärung
+
+Ich habe die Informationen gelesen und verstanden und erkläre mich mit
+der Teilnahme einverstanden.
+
+- Name:
+- Datum:
+- Unterschrift:
+
+## 11. Kontakt für Rückfragen
+
+- Name:
+- E-Mail:
+- Telefon:
+```
+
+
+## Data Use Agreement: `DUA.md` {#sec-appendix-dua}
+
+```md
+# Data Use Agreement (DUA)
+
+## 1. Parteien
+
+**Datenbereitsteller (Provider):** 
+
+- Name: 
+- Institution: 
+- Kontakt:
+
+**Datennutzende (Recipient):** 
+
+- Name: 
+- Institution: 
+- Kontakt:
+
+## 2. Zweck der Datennutzung
+
+Die Daten dürfen ausschließlich für folgenden Zweck verwendet werden: 
+
+- Projekt/Studie: 
+- Beschreibung: 
+- Laufzeit:
+
+Eine Nutzung außerhalb dieses Zwecks ist nicht gestattet.
+
+## 3. Beschreibung der Daten
+
+- Datentypen:
+- Sensitivität: [anonymisiert | pseudonymisiert]
+- Enthaltene Variablen (kurz):
+- Datenumfang:
+
+## 4. Zugriffsrechte
+
+- [ ] Zugriff nur für autorisierte Personen
+- [ ] Weitergabe an Dritte: nicht erlaubt (Standard)
+
+## 5. Datenschutz & Sicherheit
+
+- [ ] Keine Re-Identifikation
+- [ ] Sichere Speicherung
+- [ ] Zugriffskontrolle und Verschlüsselung
+
+## 6. Veröffentlichung
+
+- [ ] Nur aggregierte Ergebnisse
+- [ ] Keine Veröffentlichung von Rohdaten
+
+## 7. Dokumentation
+
+- [ ] Verarbeitungsschritte dokumentieren
+- [ ] Versionierung 
+
+## 8. Laufzeit & Löschung
+
+- Startdatum:
+- Enddatum:
+- Nach Ende: [löschen | zurückgeben | archivieren]
+
+## 9. Verstöße
+
+- [ ] Zugriff kann entzogen werden
+- [ ] Rechtliche Schritte möglich
+
+## 10. Rechtliches
+
+- Anwendbares Recht:
+- Gerichtsstand:
+
+## 11. Unterschriften
+
+- Provider:  [Unterschrift]
+- Recipient: [Unterschrift]
+```
+
+
+
 ## Checkliste der FAIR-Prinzipien: `FAIR.md` {#sec-appendix-fair-checklist}
 
 ```md
 # FAIR-Checkliste für GitHub & Zenodo
 
 ## Findable (Auffindbar)
+
 - [ ] **F1**: Der Datensatz hat eine eindeutige und dauerhafte **DOI** (z. B. von Zenodo).  
 - [ ] **F2**: Metadaten enthalten einen klaren, beschreibenden **Titel** und **Schlüsselwörter**.  
 - [ ] **F3**: Der Datensatz ist in einem **offenen Repository** (GitHub & Zenodo) gespeichert.  
 - [ ] **F4**: Metadaten sind **durchsuchbar** (z. B. über Zenodo-Suchfunktionen).  
 
 ## Accessible (Zugänglich)
+
 - [ ] **A1**: Der Datensatz ist über eine **öffentliche URL** abrufbar.  
 - [ ] **A1.1**: Daten und Metadaten sind auch nach Ablauf des Projekts verfügbar (Zenodo sichert dies). 
 - [ ] **A1.2**: **Metadaten bleiben abrufbar**, auch wenn die Daten entfernt wurden.  
 - [ ] **A2**: Falls Zugriffsbeschränkungen bestehen, sind diese klar dokumentiert.  
 
 ## Interoperable (Interoperabel)
+
 - [ ] **I1**: Datensatz und Metadaten nutzen **offene, standardisierte Formate** (z. B. CSV, JSON, Markdown).  
 - [ ] **I2**: Metadaten enthalten **kontrollierte Vokabulare** oder **standardisierte Begriffe** (z. B. ORCID für Autoren).  
 - [ ] **I3**: Der Datensatz verlinkt relevante **Publikationen, Software oder andere Daten**.  
 
 ## Reusable (Nachnutzbar)
+
 - [ ] **R1**: Metadaten enthalten eine **klare Lizenz** (z. B. CC-BY 4.0 oder MIT für Code).  
 - [ ] **R1.1**: Der Datenmanagementplan (DMP) beschreibt den Datensatz präzise.  
 - [ ] **R1.2**: Der Datensatz enthält eine detaillierte **README.md** zur Nutzung.  
@@ -175,20 +408,24 @@ Legen Sie die Datei `CHANGELOG.md` auf derselben Ordnerebene wie `README.md` an:
 # Changelog
 
 ## v1.1.0 - 2025-01-10
+
 - Hinzugefügt: Neue Datenpunkte für [Experiment XYZ].
 - Geändert: Erweiterung der README mit zusätzlichen Analyseschritten.
 
 ## v1.0.1 - 2024-12-20
+
 - Behoben: Fehler in den Variablenbeschreibungen.
 
 ## v1.0.0 - 2024-12-01
+
 - Initiale Veröffentlichung des Datensatzes.
 ```
 
 ## README-Datei für GitHub-Repository: `README.md` {#sec-appendix-metadata}
 
 
-Beispiel: Metadaten dieses Dokuments als [DataCite JSON](https://schema.datacite.org/) generiert von Zenodo:
+Beispiel: Metadaten dieses Dokuments in der Version 1.0.3 als [DataCite JSON](https://schema.datacite.org/) generiert von Zenodo:
+
 ```json
 {
   "creators": [
@@ -271,7 +508,8 @@ Beispiel: Metadaten dieses Dokuments als [DataCite JSON](https://schema.datacite
 }
 ```
 
-Beispiel: Metadaten dieses Dokuments als [Dublin Core XML](https://www.dublincore.org/) generiert von Zenodo:
+Beispiel: Metadaten dieses Dokuments in der Version 1.0.3 als [Dublin Core XML](https://www.dublincore.org/) generiert von Zenodo:
+
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
 <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
@@ -290,8 +528,6 @@ Beispiel: Metadaten dieses Dokuments als [Dublin Core XML](https://www.dublincor
   <dc:type>info:eu-repo/semantics/other</dc:type>
 </oai_dc:dc>
 ```
-
-
 
 ## Verwendete Softwarewerkzeuge {#sec-appendix-tooling}
 

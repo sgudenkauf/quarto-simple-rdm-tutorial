@@ -1,0 +1,75 @@
+# Zusammenfassung {#sec-summary}
+
+## Anleitung zur Datenveröffentlichung
+
+  - **Plattformen:**
+  
+    - [Markdown](https://www.markdownguide.org/basic-syntax/) als Textauszeichnungssprache zur einfachen Dokumentation
+    
+    - [GitHub](https://github.com/) für die Versionierung
+    
+    - [Zenodo](https://zenodo.org/) für [DOI](https://www.doi.org/)-Vergabe und Archivierung
+
+  - **Vorgehen:** 
+  
+    1. Daten strukturieren
+    
+    2. GitHub-Repo erstellen
+    
+    3. Zenodo verknüpfen
+    
+    4. Release veröffentlichen
+
+  - **README:** Strukturierte Dokumentation der Daten und Nutzungshinweise
+  
+## Datenmanagementplan (DMP) erstellen und pflegen
+  
+  - **Metadaten:** Standardformate (z. B. [DataCite](https://schema.datacite.org/)), offene Formate ([CSV](https://datatracker.ietf.org/doc/html/rfc4180), [JSON](https://ecma-international.org/publications-and-standards/standards/ecma-404/))
+  
+  - **Lizenz:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) oder [MIT-Lizenz](https://opensource.org/license/mit) für die maximale Nachnutzung
+  
+  - **FAIR-Prinzipien:** Daten auffindbar, zugänglich, interoperabel, und wiederverwendbar gestalten
+
+## Versionierung für Forschungsdaten anpassen
+  
+  - **[Semantic Versioning](https://semver.org/) (SemVer):** 
+  
+    - `MAJOR.MINOR.PATCH` für Änderungen
+    
+    - Änderungen dokumentieren in `CHANGELOG.md`
+  
+  - **[GitHub-Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository):** Neue Versionen in [GitHub](https://github.com/) erzeugen automatisch neue DOIs in [Zenodo](https://zenodo.org/)
+
+## Umgang mit Gesundheitsdaten
+
+- **Allgemeine Tipps:** 
+
+  - [Bände der TMF-Schriften­reihe](https://www.tmf-ev.de/publikationen/tmf-schriftenreihe) zu ausgewählten Themen
+
+  - [Entscheidungshilfe](https://www.akek.de/einreichung-von-forschungsvorhaben/) und [Richtlinien](https://www.akek.de/richtlinien/) des [Arbeitskreises Medizinischer Ethik-Kommissionen in der Bundesrepublik Deutschland e.V.](https://www.akek.de)
+
+- **Datenschutz und Ethik:** 
+
+  - [Ethikvotum](https://uol.de/medizinische-ethikkommission/formulare) 
+ 
+  - Informierte Einwilligung
+
+- **Anonymisierung und Pseudonymisierung:** [Leitfaden zum Datenschutz in medizinischen Forschungsprojekten](https://www.tmf-ev.de/publikationen/tmf-schriftenreihe/leitfaden-zum-datenschutz-in-medizinischen-forschungsprojekten)
+  
+- **Kontrollierter Zugriff und Verteilung:** 
+  
+  - Keine Speicherung von Rohdaten in frei verfügbaren Repositories
+  
+  - Data Use Agreement (DUA)
+
+- **Standardisierte Terminologien:** z. B. [ICD-10](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/ICD/ICD-10-GM/_node.html) und [SNOMED CT](https://docs.snomed.org/snomed-ct-practical-guides/snomed-ct-starter-guide)
+
+- **Interoperabilität:** Etablierte Formate wie z. B. [HL7 FHIR](https://www.hl7.org/fhir/)
+
+- **Versionierung:** [Semantic Versioning](https://semver.org/) ggf. durch logische Zusätze zur Beschaffenheit der Daten ergänzen, z. B. `v1.1.3-cleaned`
+
+- **Dokumentation:** Notwendigkeit weiterer Dokumente vor Projektbeginn prüfen
+
+  - Änderungshistorie
+  
+  - Codebuch

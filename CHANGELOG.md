@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.0 - 2026-06-05
+- Added chapter for RDM in Health
+- Changed License from MIT to CC BY-SA
+- Updated metadata and layout
+
 ## v1.1.0 - 2025-26-02
 - Added information on metadata in FAIR section.
 - Added example on SemVer.

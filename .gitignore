@@ -1,5 +1,5 @@
 .quarto
 site_libs
 *DS_Store*
-Gudenkauf_RDM_2025.tex 
+*.tex 
 /.quarto/

@@ -9,7 +9,7 @@ This repository contains the project sources and output files for the article:
 
 [![DOI](https://zenodo.org/badge/928431889.svg)](https://doi.org/10.5281/zenodo.14840823)
 
-:inbox_tray: **Download (PDF output only):** [Gudenkauf_RDM_2025.pdf](/docs/Gudenkauf_RDM_2025.pdf)
+:inbox_tray: **Download (PDF output only):** [Gudenkauf_RDM_2026.pdf](/docs/Gudenkauf_RDM_2026.pdf)
 
 ![The article generated as a PDF document.](img/output-pdf.png)
 
@@ -31,7 +31,8 @@ quarto-simple-rdm-tutorial/
 ├─ 02_DMP.qmd
 ├─ 03_FAIR.qmd
 ├─ 04_SemVer.qmd
-├─ 05_Fazit.qmd
+├─ 05_Gesundheit.qmd
+├─ 06_Fazit.qmd
 ├─ appendix.qmd
 ├─ CHANGELOG.md
 ├─ index.qmd
@@ -97,7 +98,7 @@ If you use this project, please cite:
 - **Article generated in this project**: Not separately published
 
 ## License
-This repository is licensed under the [MIT License](https://opensource.org/license/mit). See `LICENSE` file for details.
+This repository by [Stefan Gudenkauf](https://orcid.org/0000-0002-1813-3448) is licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See `LICENSE` file for details.
 
 ## Acknowledgments
 

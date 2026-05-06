@@ -4,7 +4,27 @@
     "href": "index.html",
     "title": "Veröffentlichung von Forschungsdaten",
     "section": "",
-    "text": "Abstract\nDieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Entweder stehen Sie direkt vor der Veröffentlichung eines neuen Datensatzes oder Sie möchten die Daten zu einer bereits bestehenden Veröffentlichung nachträglich zugänglich machen. Vielleicht sind sie auch im Rahmen einer Förderung durch Dritte dazu angehalten, Ihre Daten zu veröffentlichen. Dieses Dokument möchte Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand professionell umzusetzen.\nThis document is intended for researchers at institutions with limited resources for research data management. You may be about to publish a new dataset or looking to make data from an existing publication publicly accessible. Perhaps you are required to share your data as part of a third-party funding agreement. This document aims to help you achieve this professionally with minimal personal effort.\nKeywords: research data management, data management plan, semantic versioning, fair principles, rdm tools",
+    "text": "Abstract\nDieses Dokument richtet sich an Sie als Forschende/r einer Einrichtung mit begrenzten Mitteln für Forschungsdatenmanagement. Entweder stehen Sie direkt vor der Veröffentlichung eines neuen Datensatzes oder Sie möchten die Daten zu einer bereits bestehenden Veröffentlichung nachträglich zugänglich machen. Vielleicht sind sie auch im Rahmen einer Förderung durch Dritte dazu angehalten, Ihre Daten zu veröffentlichen. Dieses Dokument möchte Ihnen helfen, dieses Vorhaben mit möglichst geringem persönlichen Aufwand professionell umzusetzen.\nThis document is intended for researchers at institutions with limited resources for research data management. You may be about to publish a new dataset or looking to make data from an existing publication publicly accessible. Perhaps you are required to share your data as part of a third-party funding agreement. This document aims to help you achieve this professionally with minimal personal effort.\nKeywords: research data management, data management plan, semantic versioning, fair principles, rdm tools, health data",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "index.html#nutzungsbedingungen",
+    "href": "index.html#nutzungsbedingungen",
+    "title": "Veröffentlichung von Forschungsdaten",
+    "section": "Nutzungsbedingungen",
+    "text": "Nutzungsbedingungen\nDieses Werk von Stefan Gudenkauf steht unter der Lizenz CC BY-SA 4.0.",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "index.html#werkseintrag",
+    "href": "index.html#werkseintrag",
+    "title": "Veröffentlichung von Forschungsdaten",
+    "section": "Werkseintrag",
+    "text": "Werkseintrag\nBibTex-Eintrag:\n@techreport{gudenkauf_veroffentlichung_2026,\n    address = {Wilhelmshaven},\n    title = {Veröffentlichung von {Forschungsdaten}: {Ein} {Leitfaden} mit {Markdown} für {GitHub} und {Zenodo}},\n    copyright = {CC BY-SA 4.0},\n    url = {https://github.com/sgudenkauf/quarto-simple-rdm-tutorial},\n    doi = {https://doi.org/10.5281/zenodo.14840823},\n    language = {Deutsch},\n    institution = {Institut für Wirtschaftsinformatik (IfW), Jade Hochschule},\n    author = {Gudenkauf, Stefan},\n    month = may,\n    year = {2026},\n}\nBitte geben Sie als Quellenangabe folgende Referenz an:\n\nGudenkauf, S. (2026). Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo. Institut für Wirtschaftsinformatik (IfW), Jade Hochschule. https://doi.org/10.5281/zenodo.14840823",
     "crumbs": [
       "Abstract"
     ]
@@ -24,7 +44,7 @@
     "href": "01_Grundlagen.html#daten-vorbereiten",
     "title": "1  Der Weg zur Datenveröffentlichung",
     "section": "",
-    "text": "Bereiten Sie Ihre Daten auf:\n\nVerwenden Sie eine strukturierte, verständliche Dateibenennung. Es emfehlen sich die Best Practices der MIT Libraries, siehe Malinowski (2020). In Tabelle 1.2 stellen wir Ihnen ausgewählte Empfehlungen vor.\nEntfernen Sie sensible oder personenbezogene Daten.\nDokumentieren Sie Ihr Vorgehen zur Datenerhebung und -aufbereitung in einer separaten Datei, z. B. README.md oder metadata.txt.\n\nErstellen Sie eine geeignete Ordnerstruktur:\n\nErstellen Sie ein Hauptverzeichnis mit klar strukturierten Unterordnern, z. B. /raw_data, /processed_data, /scripts.\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 6.1 finden Sie das Beispiel einer README-Datei in einfachem Markdown-Textormat. Es beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.\n\n\n\n\n\nTabelle 1.2: Ausgewählte Empfehlungen zur Dateibenennung.\n\n\n\n\n\n\n\n\n\nThema\nEmpfehlungen\n\n\n\n\nDateinamen\nnicht mehr als 32 Zeichen\n\n\nTrennzeichen\nnur Unterstrich _ und camelCase als Trenner, z. B. Handout_dateiBenennung.pdf\n\n\n\nkeine Leerzeichen\n\n\n\nkeine Punkte außer direkt vor der Dateiendung\n\n\nSonderzeichen\nkeine sonstigen Sonderzeichen wie z. B. &, *, %, #, ;, !, @, ~, ’, [, ], {, }, ?, &lt;, &gt;\n\n\nDatumsangaben\nmöglichst konsistent, um das Suchen und Sortieren zu erleichtern\n\n\n\nYYYYMMDD (Jahr, Monat, Tag) ist ein sehr gutes Format, z. B. 20240828_Protokoll.pdf\n\n\nNummerierungen\nführende Nummern zur Abbildung fester Sequenzen\n\n\n\nSequenzen von 1 bis 10: 01_bis 10_\n\n\n\nSequenzen von 1 bis 100:  001_ bis 100_",
+    "text": "Bereiten Sie Ihre Daten auf:\n\nVerwenden Sie eine strukturierte, verständliche Dateibenennung. Es emfehlen sich die Best Practices der MIT Libraries, siehe Malinowski (2020). In Tabelle 1.2 stellen wir Ihnen ausgewählte Empfehlungen vor.\nEntfernen Sie sensible oder personenbezogene Daten.\nDokumentieren Sie Ihr Vorgehen zur Datenerhebung und -aufbereitung in einer separaten Datei, z. B. README.md oder metadata.txt.\n\nErstellen Sie eine geeignete Ordnerstruktur:\n\nErstellen Sie ein Hauptverzeichnis mit klar strukturierten Unterordnern, z. B. /raw_data, /processed_data, /scripts.\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 7.1 finden Sie das Beispiel einer README-Datei in einfachem Markdown-Textormat. Es beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.\n\n\n\n\n\nTabelle 1.2: Ausgewählte Empfehlungen zur Dateibenennung.\n\n\n\n\n\n\n\n\n\nThema\nEmpfehlungen\n\n\n\n\nDateinamen\nnicht mehr als 32 Zeichen\n\n\nTrennzeichen\nnur Unterstrich _ und camelCase als Trenner, z. B. Handout_dateiBenennung.pdf\n\n\n\nkeine Leerzeichen\n\n\n\nkeine Punkte außer direkt vor der Dateiendung\n\n\nSonderzeichen\nkeine sonstigen Sonderzeichen wie z. B. &, *, %, #, ;, !, @, ~, ’, [, ], {, }, ?, &lt;, &gt;\n\n\nDatumsangaben\nmöglichst konsistent, um das Suchen und Sortieren zu erleichtern\n\n\n\nYYYYMMDD (Jahr, Monat, Tag) ist ein sehr gutes Format, z. B. 20240828_Protokoll.pdf\n\n\nNummerierungen\nführende Nummern zur Abbildung fester Sequenzen\n\n\n\nSequenzen von 1 bis 10: 01_bis 10_\n\n\n\nSequenzen von 1 bis 100:  001_ bis 100_",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Der Weg zur Datenveröffentlichung</span>"
     ]
@@ -84,7 +104,7 @@
     "href": "02_DMP.html",
     "title": "2  Ein einfacher Datenmanagementplan",
     "section": "",
-    "text": "Ein Datenmanagementplan (DMP) beschreibt, wie Daten gesammelt, gespeichert, dokumentiert und geteilt werden sollen. Fördergeber erwarten von Ihnen zunehmend die Erstellung und Fortführung solcher Pläne im Rahmen der Beantragung und Durchführung Ihrer Forschungsprojekte. Inhaltlich sollten folgende Punkte beschrieben werden:\n\nProjektbeschreibung und Zielsetzung\nArten und Umfang der Daten\nSpeicherung und Sicherung\nDokumentation und Metadaten\nVeröffentlichung und Nachnutzung\nVerantwortlichkeiten und Ressourcen\nEthik und Datenschutz\nAktualisierungen des Plans\n\nSpeichern Sie die eigentlichen Forschungsdaten in offenen, maschinenlesbaren Formaten wie CSV (für Tabellen) oder JSON (für strukturierte Daten), um Interoperabilität und Wiederverwendbarkeit sicherzustellen. Mehr dazu finden Sie in Kapitel 3.\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 6.2 finden Sie das Beispiel eines Datenmanagementplans in einfachem Markdown-Textormat. Er beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.",
+    "text": "Ein Datenmanagementplan (DMP) beschreibt, wie Daten gesammelt, gespeichert, dokumentiert und geteilt werden sollen. Fördergeber erwarten von Ihnen zunehmend die Erstellung und Fortführung solcher Pläne im Rahmen der Beantragung und Durchführung Ihrer Forschungsprojekte. Inhaltlich sollten folgende Punkte beschrieben werden:\n\nProjektbeschreibung und Zielsetzung\nArten und Umfang der Daten\nSpeicherung und Sicherung\nDokumentation und Metadaten\nVeröffentlichung und Nachnutzung\nVerantwortlichkeiten und Ressourcen\nEthik und Datenschutz\nAktualisierungen des Plans\n\nSpeichern Sie die eigentlichen Forschungsdaten in offenen, maschinenlesbaren Formaten wie CSV (für Tabellen) oder JSON (für strukturierte Daten), um Interoperabilität und Wiederverwendbarkeit sicherzustellen. Mehr dazu finden Sie in Kapitel 3.\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 7.2 finden Sie das Beispiel eines Datenmanagementplans in einfachem Markdown-Textormat. Er beinhaltet Textbausteine, die für die Ablage in einem GitHub-Repository geeignet sind.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ein einfacher Datenmanagementplan</span>"
     ]
@@ -104,7 +124,7 @@
     "href": "03_FAIR.html#findable-doi-metadaten-und-suchmaschinenoptimierung",
     "title": "3  FAIR-Prinzipien berücksichtigen",
     "section": "",
-    "text": "Dann haben wir für jedes mit GitHub verwaltete Projekt eine README-Datei erstellt, die weitere Informationen über unser Projekt enthält (Kapitel 1).\nDann haben wir unsere Projekte in Zenodo integriert und müssen auch dort Informationen ergänzen (Kapitel 1).\n\n\n\n3.1.1 DOI und Metadaten ergänzen\nPrüfen Sie folgende Punkte, um die Auffindbarkeit der Daten zu verbessern:\n\nStellen Sie sicher, dass Metadaten in einem standardisierten Format beschieben werden. Bekannte Formate sind z. B. DataCite oder Dublin Core.\nMachen Sie Angaben zu üblichen Schlagwörtern und standardisierten Vokabularen zu Ihrem Fachgebiet.\nDokumentieren Sie im Datenmanagementplan die Art der Vergabe einer DOI. sowie das verwendete Format oder den Standard, nach dem Metadaten kodiert sind (@#sec-dmp).\n\nZenodo übernimmt für Sie neben der Vergabe eines digitalen Objektbezeichners (DOI, siehe auch DOI Handbook (2023)) auch die Generierung von standardisierten Metadaten. Data Cite und Dublin Core können dann direkt aus Zenodo abgefragt werden, beispielsweise über die Exportfunktion (unten rechts in Abbildung 3.1).\n\n\n\n\n\n\nAbbildung 3.1: Export von Metadaten aus Zenodo.\n\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 6.5 finden Sie die Metadaten zu diesem Dokument in den Formaten DataCite JSON und Dublin Core XML.\n\n\nErgänzen Sie bei Bedarf im DMP:\n**Metadatenformat**:  \n- [z. B. DataCite, Dublin Core]  \n\n**Beschreibung der Daten**:  \n- Jede Datei wird durch eine README-Datei dokumentiert, die Informationen über:  \n   - Den Inhalt  \n   - Die Erhebungsmethodik  \n   - Verwendete Software oder Tools enthält.\n- Schlagwörter: [Themenrelevante Begriffe, z. B. \"Machine Learning\", \"Umweltdaten\"]  \n\n**DOI-Zuweisung**:  \n- Die Veröffentlichung erfolgt mit einem DOI über Zenodo.\n\n\n3.1.2 Suchmaschinen unterstützen\n\nGitHub-Projekte werden in der Regel von GitHub automatisch indexiert, so dass sie besser gefunden werden können.\nZusätzlich sollten Sie keine unnötigen .gitignore-Einstellungen in GitHub verwenden.",
+    "text": "Dann haben wir für jedes mit GitHub verwaltete Projekt eine README-Datei erstellt, die weitere Informationen über unser Projekt enthält (Kapitel 1).\nDann haben wir unsere Projekte in Zenodo integriert und müssen auch dort Informationen ergänzen (Kapitel 1).\n\n\n\n3.1.1 DOI und Metadaten ergänzen\nPrüfen Sie folgende Punkte, um die Auffindbarkeit der Daten zu verbessern:\n\nStellen Sie sicher, dass Metadaten in einem standardisierten Format beschieben werden. Bekannte Formate sind z. B. DataCite oder Dublin Core.\nMachen Sie Angaben zu üblichen Schlagwörtern und standardisierten Vokabularen zu Ihrem Fachgebiet.\nDokumentieren Sie im Datenmanagementplan die Art der Vergabe einer DOI. sowie das verwendete Format oder den Standard, nach dem Metadaten kodiert sind (@#sec-dmp).\n\nZenodo übernimmt für Sie neben der Vergabe eines digitalen Objektbezeichners (DOI, siehe auch DOI Handbook (2023)) auch die Generierung von standardisierten Metadaten. Data Cite und Dublin Core können dann direkt aus Zenodo abgefragt werden, beispielsweise über die Exportfunktion (unten rechts in Abbildung 3.1).\n\n\n\n\n\n\nAbbildung 3.1: Export von Metadaten aus Zenodo.\n\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 7.8 finden Sie die Metadaten zu diesem Dokument in den Formaten DataCite JSON und Dublin Core XML.\n\n\nErgänzen Sie bei Bedarf im DMP:\n**Metadatenformat**:  \n- [z. B. DataCite, Dublin Core]  \n\n**Beschreibung der Daten**:  \n- Jede Datei wird durch eine README-Datei dokumentiert, die Informationen über:  \n   - Den Inhalt  \n   - Die Erhebungsmethodik  \n   - Verwendete Software oder Tools enthält.\n- Schlagwörter: [Themenrelevante Begriffe, z. B. \"Machine Learning\", \"Umweltdaten\"]  \n\n**DOI-Zuweisung**:  \n- Die Veröffentlichung erfolgt mit einem DOI über Zenodo.\n\n\n3.1.2 Suchmaschinen unterstützen\n\nGitHub-Projekte werden in der Regel von GitHub automatisch indexiert, so dass sie besser gefunden werden können.\nZusätzlich sollten Sie keine unnötigen .gitignore-Einstellungen in GitHub verwenden.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>FAIR-Prinzipien berücksichtigen</span>"
     ]
@@ -190,123 +210,253 @@
     ]
   },
   {
-    "objectID": "05_Fazit.html",
-    "href": "05_Fazit.html",
-    "title": "5  Zusammenfassung",
+    "objectID": "05_Gesundheit.html",
+    "href": "05_Gesundheit.html",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
     "section": "",
-    "text": "5.1 Anleitung zur Datenveröffentlichung",
+    "text": "5.1 Datenschutz und Ethik\nDie Datenschutzgrundverordnung (DSGVO) definiert Gesundheitsdaten als “personenbezogene Daten, die sich auf die körperliche oder geistige Gesundheit einer natürlichen Person, einschließlich der Erbringung von Gesundheitsdienstleistungen, beziehen und aus denen Informationen über deren Gesundheitszustand hervorgehen” (§ 46 Abs. 13 DSGVO). Sie gelten als besonders sensibel. Beispielswise erlaubt Art. 9 DSGVO deren Verarbeitung nur in ausgewählten Fällen. Die Dokumentation solcher Daten ist dabei genauso wichtig wie die Daten selbst. Dadurch ergeben sich besondere Anforderungen an die Handhabung von Gesundheitsdaten in der Forschung:\nAls Ideal kann die Faustregel “So offen wie möglich, so geschlossen wir nötig” gesehen werden.\nVor dem Projektstart sollte geklärt werden:",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Zusammenfassung</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
     ]
   },
   {
-    "objectID": "05_Fazit.html#anleitung-zur-datenveröffentlichung",
-    "href": "05_Fazit.html#anleitung-zur-datenveröffentlichung",
-    "title": "5  Zusammenfassung",
+    "objectID": "05_Gesundheit.html#datenschutz-und-ethik",
+    "href": "05_Gesundheit.html#datenschutz-und-ethik",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "",
+    "text": "Liegt ein Ethikvotum vor?1\nGibt es eine informierte Einwilligung (engl. informed consent)\nWelche Art der Verarbeitung und Datennachnutzung umfasst die informierte Einwilligung?2\n\n\n\n\n\n\n\nHinweis\n\n\n\nDer Arbeitskreis Medizinischer Ethik-Kommissionen in der Bundesrepublik Deutschland e.V. stellt diverse Mustertexte und Richtlinien zur Verfügung.\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 7.4 finden Sie das Beispiel einer informierten Einwilligung in einfachem Markdown-Textormat.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#anonymisierung-und-pseudonymisierung",
+    "href": "05_Gesundheit.html#anonymisierung-und-pseudonymisierung",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.2 Anonymisierung und Pseudonymisierung",
+    "text": "5.2 Anonymisierung und Pseudonymisierung\nDie Begrifssbestimmungen in Art. 4 DSGVO definieren Pseudonymisierung als “[…] die Verarbeitung personenbezogener Daten in einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden”. § 46 Abs. 5 Bundesdatenschutzgesetz (BDSG) bestimmt Pseudonymisierung sehr ähnlich.\nGemäß § 3 (6) BDSG a. F.3 ist Anonymisierung “[…] das Verändern personenbezogener Daten derart, dass die Einzelangaben über persönliche oder sachliche Verhältnisse nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können”.\nFür Gesundheitsdaten wird daher allgemein empfohlen:\n\nEntfernen direkter Identifikatoren (Name, Adresse etc.) oder Ersetzen durch Pseudonyme\nBesondere Berücksichtigung indirekter Identifikatoren (Alter, seltene Krankheit etc.)4\n\nFür die konkrete Forschung mit Patienten oder Probanden ergibt sich der Bedarf, personenidentifizierende Daten von den Forschungsdaten separat zu verwalten und auf Verlangen der Probanden (z. B. bei Löschanfragen) wieder zusammen führen zu können.\n\n\n\n\n\n\nAbbildung 5.1: Modularisiertes Datenschutzkonzept gemäß REF (eigene Darstellung).\n\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn ihrem Leitfaden zum Datenschutz in medizinischen Forschungsprojekten stellt die TMF e.V. ein modularisiertes Datenschutzkonzept für den Forschungskontext bereit, siehe Pommerening u. a. (2014) und Abbildung 5.1. Zentrale Komponente ist dabei der Pseudonymisierungsdienst des Identitätsmanagement-Moduls. Ein Beilspiel eines solchen Dienstes findet sich in Puchkovskiy & Gudenkauf (2015).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#kontrollierter-zugriff-und-verteilung",
+    "href": "05_Gesundheit.html#kontrollierter-zugriff-und-verteilung",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.3 Kontrollierter Zugriff und Verteilung",
+    "text": "5.3 Kontrollierter Zugriff und Verteilung\nOffene Repositories wie GitHub und Zenodo sind in der Regeln nicht geeignet für die Speicherung von Rohdaten.\nEmpfehlung: Stattdessen können Sie den Datenzugang wie folgt realisieren:\n\nMetadaten offen zugänglich machen\nDie eigentlichen Forschungsrohdaten kontrolliert zugänglich machen\n\nAuf separatem Antrag hin: Data Use Agreement (DUA)5\nAn definierter Kontaktstelle richtend\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nIn Kapitel 7.5 finden Sie das Beispiel eines Data Use Agreement in einfachem Markdown-Textormat.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#verwendung-standardisierter-terminologien",
+    "href": "05_Gesundheit.html#verwendung-standardisierter-terminologien",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.4 Verwendung standardisierter Terminologien",
+    "text": "5.4 Verwendung standardisierter Terminologien\nDie Verwendung einheitlicher Begriffe eröht die Nachnutzbarkeit von Daten. Im Bereich Gesundheit gibt es definierte Standards, z. B.\n\nICD-10 (zur Codierung von Diagnosen)\nSNOMED CT (zur Codierung klinischer Begriffe)\n\nEmpfehlung: Dokumentieren Sie die Abbildung projektspezifischer Begriffe auf etablierte Terminologien in einer Mapping-Tabelle, sofern nötig.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#interoperabilität",
+    "href": "05_Gesundheit.html#interoperabilität",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.5 Interoperabilität",
+    "text": "5.5 Interoperabilität\nDer Austausch von Daten zwischen verschiedenen Systemen erfordert Interoperabilität. Vermeiden Sie proprietäre Formate wie Microsoft Excel-Dateien mit undokumentierter Tabellenstruktur.\nEmpfehlung: Nutzen Sie auch hier etablierte Formate wie z. B. HL7 FHIR.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#versionierung-und-nachvollziehbarkeit",
+    "href": "05_Gesundheit.html#versionierung-und-nachvollziehbarkeit",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.6 Versionierung und Nachvollziehbarkeit",
+    "text": "5.6 Versionierung und Nachvollziehbarkeit\nRepositories wie GitHub zur Versionierung und Zenodo zur Datenveröffentlichung können Sie nicht für sensible Daten verwenden wohl aber für begleitende Datensätze:\n\nAusführbare Skripte\nDokumentation der Datenverarbeitungsschritte\n\nEmpfehlung: Verwenden Sie zur Versionierung der Datenbestände zusätzlich zu Semantic Versioning in Kapitel 4 logische Zusätze zur Beschaffenheit der Daten, z. B. v1.1.3-cleaned. Mögliche Zusätze sind:\n\n-raw für Rohdaten\n-cleaned für bereinigte oder aufbereitete Datenbestände\n-analysed für untersuchte oder um Analyseergebnisse ergänzte Datenbestände\n\nReine Ergänzungen sollten dabei weiterhin nur die MINOR-Nummer der Versionsnummer erhöhen, grundlegende strukturelle Änderungen (z. B. neue Variablenstruktur, neue Datensätze) die MAJOR-Nummer.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#dokumentation-der-datenerhebung-und-der-einzelnen-verarbeitungsschritte",
+    "href": "05_Gesundheit.html#dokumentation-der-datenerhebung-und-der-einzelnen-verarbeitungsschritte",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "5.7 Dokumentation der Datenerhebung und der einzelnen Verarbeitungsschritte",
+    "text": "5.7 Dokumentation der Datenerhebung und der einzelnen Verarbeitungsschritte\nGegebenenfalls muss jede Änderung einer Variable bei der Datenerhebung dokumentiert werden, was den Aufwand zur Datenpflege und den Speicherbedarf schnell erhöht, siehe Abbildung 5.2.\n\n\n\n\n\n\nAbbildung 5.2: Beispielrealisierung einer Änderungshistorie als UML-Klassendiagramm. Die Klassen könne als Tabellen verstanden werden, die Attribute als Spaltenbezeichnungen in den Tabellen.\n\n\n\nEbenfalls kann es notwendig werden, die Bedeutung der erhobenen Variablen in einem Codebuch zu dokumentieren, damit Rohdaten zu einem späteren Zeitpunkt und durch Dritte interpretiert werden können. Dazu gehören:\n\nVariablenbeschreibung: Name der Variable, Maßeinheit, Bedeutung\nKodierung: Kodierung der Variablen z. B.\n0: Weiblich\n1: Männlich\n2: Divers\n3: Ohne Angabe\n\nEmpfehlung: Klären Sie die Notwendigkeit zur Pflege einer Änderungshistorie und eines Codebuchs vor Projektbeginn.\n\n\n\n\nPommerening, Klaus ; Drepper, Johannes ; Helbing, Krister ; Ganslandt, Thomas: Leitfaden zum Datenschutz in medizinischen Forschungsprojekten: Generische Lösungen der TMF 2.0 : Medizinisch Wissenschaftliche Verlagsgesellschaft, 2014 — ISBN 978-3-95466-295-1\n\n\nPuchkovskiy, Alexandr ; Gudenkauf, Stefan: Service-basiertes High-Performance Privacy Preserving Record Linkage für die Epidemiologische Datenauswertung. In: 60. Jahrestagung der Deutschen Gesellschaft für Medizinische Informatik, Biometrie und Epidemiologie e. V. (GMDS 2015). Krefeld, 2015",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "05_Gesundheit.html#footnotes",
+    "href": "05_Gesundheit.html#footnotes",
+    "title": "5  Der Umgang mit Gesundheitsdaten",
+    "section": "",
+    "text": "Wann ist ein Ethikvotum überhaupt notwendig? Der Arbeitskreis Medizinischer Ethik-Kommissionen in der Bundesrepublik Deutschland e.V. stellt eine übersichtliche Entscheidungshilfe parat, siehe https://www.akek.de/einreichung-von-forschungsvorhaben/↩︎\nSiehe z. B. https://www.pedocs.de/volltexte/2022/22301/pdf/fdb-info_4_Formulierungsbeispiele_fuer_informierte_Einwilligungen_2018_v2.1_A.pdf↩︎\nIn der Fassung der Bekanntmachung vom 14.01.2003 (BGBl. I S. 66), zuletzt geändert durch Gesetz vom 30.10.2017 (BGBl. I S. 3618) m.W.v. 09.11.2017, Außer Kraft getreten am 25.05.2018 aufgrund Gesetzes vom 30.06.2017 (BGBl. I S. 2097), siehe https://dejure.org/gesetze/BDSG_a.F.↩︎\nDie Angaben von Alter und seltener Krankheit kann die Reidentifizierung einzelner Personen ermöglichen.↩︎\nSiehe z. B. https://www.gesis.org/fileadmin/upload/dienstleistung/daten/secure_data_center/GESIS_Data_Use_Agreement_Off-Site.pdf↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Der Umgang mit Gesundheitsdaten</span>"
+    ]
+  },
+  {
+    "objectID": "06_Fazit.html",
+    "href": "06_Fazit.html",
+    "title": "6  Zusammenfassung",
+    "section": "",
+    "text": "6.1 Anleitung zur Datenveröffentlichung",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Zusammenfassung</span>"
+    ]
+  },
+  {
+    "objectID": "06_Fazit.html#anleitung-zur-datenveröffentlichung",
+    "href": "06_Fazit.html#anleitung-zur-datenveröffentlichung",
+    "title": "6  Zusammenfassung",
     "section": "",
     "text": "Plattformen:\n\nMarkdown als Textauszeichnungssprache zur einfachen Dokumentation\nGitHub für die Versionierung\nZenodo für DOI-Vergabe und Archivierung\n\nVorgehen:\n\nDaten strukturieren\nGitHub-Repo erstellen\nZenodo verknüpfen\nRelease veröffentlichen\n\nREADME: Strukturierte Dokumentation der Daten und Nutzungshinweise",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Zusammenfassung</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Zusammenfassung</span>"
     ]
   },
   {
-    "objectID": "05_Fazit.html#datenmanagementplan-dmp-erstellen-und-pflegen",
-    "href": "05_Fazit.html#datenmanagementplan-dmp-erstellen-und-pflegen",
-    "title": "5  Zusammenfassung",
-    "section": "5.2 Datenmanagementplan (DMP) erstellen und pflegen",
-    "text": "5.2 Datenmanagementplan (DMP) erstellen und pflegen\n\nMetadaten: Standardformate (z. B. DataCite), offene Formate (CSV, JSON)\nLizenz: CC-BY 4.0 oder MIT-Lizenz für die maximale Nachnutzung\nFAIR-Prinzipien: Daten auffindbar, zugänglich, interoperabel, und wiederverwendbar gestalten",
+    "objectID": "06_Fazit.html#datenmanagementplan-dmp-erstellen-und-pflegen",
+    "href": "06_Fazit.html#datenmanagementplan-dmp-erstellen-und-pflegen",
+    "title": "6  Zusammenfassung",
+    "section": "6.2 Datenmanagementplan (DMP) erstellen und pflegen",
+    "text": "6.2 Datenmanagementplan (DMP) erstellen und pflegen\n\nMetadaten: Standardformate (z. B. DataCite), offene Formate (CSV, JSON)\nLizenz: CC-BY 4.0 oder MIT-Lizenz für die maximale Nachnutzung\nFAIR-Prinzipien: Daten auffindbar, zugänglich, interoperabel, und wiederverwendbar gestalten",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Zusammenfassung</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Zusammenfassung</span>"
     ]
   },
   {
-    "objectID": "05_Fazit.html#versionierung-für-forschungsdaten-anpassen",
-    "href": "05_Fazit.html#versionierung-für-forschungsdaten-anpassen",
-    "title": "5  Zusammenfassung",
-    "section": "5.3 Versionierung für Forschungsdaten anpassen",
-    "text": "5.3 Versionierung für Forschungsdaten anpassen\n\nSemantic Versioning (SemVer):\n\nMAJOR.MINOR.PATCH für Änderungen\nÄnderungen dokumentieren in CHANGELOG.md\n\nGitHub-Releases: Neue Versionen in GitHub erzeugen automatisch neue DOIs in Zenodo",
+    "objectID": "06_Fazit.html#versionierung-für-forschungsdaten-anpassen",
+    "href": "06_Fazit.html#versionierung-für-forschungsdaten-anpassen",
+    "title": "6  Zusammenfassung",
+    "section": "6.3 Versionierung für Forschungsdaten anpassen",
+    "text": "6.3 Versionierung für Forschungsdaten anpassen\n\nSemantic Versioning (SemVer):\n\nMAJOR.MINOR.PATCH für Änderungen\nÄnderungen dokumentieren in CHANGELOG.md\n\nGitHub-Releases: Neue Versionen in GitHub erzeugen automatisch neue DOIs in Zenodo",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Zusammenfassung</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Zusammenfassung</span>"
+    ]
+  },
+  {
+    "objectID": "06_Fazit.html#umgang-mit-gesundheitsdaten",
+    "href": "06_Fazit.html#umgang-mit-gesundheitsdaten",
+    "title": "6  Zusammenfassung",
+    "section": "6.4 Umgang mit Gesundheitsdaten",
+    "text": "6.4 Umgang mit Gesundheitsdaten\n\nAllgemeine Tipps:\n\nBände der TMF-Schriften­reihe zu ausgewählten Themen\nEntscheidungshilfe und Richtlinien des Arbeitskreises Medizinischer Ethik-Kommissionen in der Bundesrepublik Deutschland e.V.\n\nDatenschutz und Ethik:\n\nEthikvotum\nInformierte Einwilligung\n\nAnonymisierung und Pseudonymisierung: Leitfaden zum Datenschutz in medizinischen Forschungsprojekten\nKontrollierter Zugriff und Verteilung:\n\nKeine Speicherung von Rohdaten in frei verfügbaren Repositories\nData Use Agreement (DUA)\n\nStandardisierte Terminologien: z. B. ICD-10 und SNOMED CT\nInteroperabilität: Etablierte Formate wie z. B. HL7 FHIR\nVersionierung: Semantic Versioning ggf. durch logische Zusätze zur Beschaffenheit der Daten ergänzen, z. B. v1.1.3-cleaned\nDokumentation: Notwendigkeit weiterer Dokumente vor Projektbeginn prüfen\n\nÄnderungshistorie\nCodebuch",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Zusammenfassung</span>"
     ]
   },
   {
     "objectID": "appendix.html",
     "href": "appendix.html",
-    "title": "6  Anhang",
+    "title": "7  Anhang",
     "section": "",
-    "text": "6.1 README-Datei für GitHub-Repository: README.md",
+    "text": "7.1 README-Datei für GitHub-Repository: README.md",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-readme",
     "href": "appendix.html#sec-appendix-readme",
-    "title": "6  Anhang",
+    "title": "7  Anhang",
     "section": "",
     "text": "# Project Name - Dataset\n\n## Overview\nThis repository contains the dataset used in the research article:  \n**\"Title of the Paper\"**, published in *Journal Name*.  \nDOI of the article: [Link to Paper DOI]  \n\n## Dataset Description\n- **Raw Data**: `/raw_data/` contains the original data collected during the study.  \n- **Processed Data**: `/processed_data/` contains cleaned and analyzed data.  \n- **Scripts**: `/scripts/` includes scripts used for data analysis.\n\n## How to Use\n1. Clone this repository: `git clone https://github.com/username/projectname-dataset.git`\n2. Navigate through the folders for relevant files.  \n3. Refer to `metadata.txt` for detailed descriptions of the dataset and methodology.\n\n## Citation\nIf you use this dataset, please cite:  \n- **Dataset**: [DOI provided by Zenodo]  \n- **Paper**: [Paper DOI]\n\n## License\nThis dataset is licensed under [LICENSE NAME]. See `LICENSE` file for details.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-dmp",
     "href": "appendix.html#sec-appendix-dmp",
-    "title": "6  Anhang",
-    "section": "6.2 Datenmanagementplan: DMP.md",
-    "text": "6.2 Datenmanagementplan: DMP.md\n# Datenmanagementplan (DMP)\n\n## 1. Projektbeschreibung\n**Projektname**: [Titel des Forschungsprojekts]  \n**Verantwortliche*r Forschende*r**: [Ihr Name]  \n**Institution**: [Name der Hochschule oder Forschungseinrichtung]  \n**Förderorganisation (falls zutreffend)**: [Förderorganisation, z. B. DFG]  \n\n### Ziel des Projekts\n[Kurze Beschreibung des Projekts, z. B.:  \n\"Dieses Projekt untersucht [Thema]. Die generierten Daten dienen als Grundlage für die Publikation im Journal [Name] und werden gemäß den FAIR-Prinzipien öffentlich zugänglich gemacht.\"]\n\n## 2. Arten und Umfang der Daten\n**Datentypen**:  \n- [Primärdaten, z. B. experimentelle Messdaten, Umfrageergebnisse, Bilddaten]  \n- [Sekundärdaten, z. B. aus Literatur oder externen Datenquellen]  \n- [Metadaten, z. B. Dokumentation, Kontextbeschreibungen]  \n\n**Umfang der Daten**:  \n- Geschätzte Dateigröße: [z. B. 500 MB]  \n- Anzahl der Dateien: [z. B. 30 CSV-Dateien]  \n\n**Dateiformate**:  \n- Rohdaten: [z. B. CSV, TIFF]  \n- Analysedaten: [z. B. XLSX, JSON]  \n- Dokumentation: [z. B. Markdown, PDF]\n\n## 3. Speicherung und Sicherung\n**Speicherorte**:  \n- **Primäre Speicherung**: GitHub-Repository ([Link hinzufügen])  \n- **Backup-Strategie**: Automatische Sicherung auf lokalen Systemen, Cloud-Diensten (z. B. [Google Drive, OneDrive]), o.a.  \n\n**Versionierung**:  \n- Git wird zur Versionierung und Nachverfolgung von Änderungen verwendet.\n\n**Zugriffsrechte während des Projekts**:  \n- Nur Projektbeteiligte haben während der Erstellung Schreibrechte.  \n- GitHub ermöglicht eine öffentliche Einsicht nach Abschluss des Projekts.\n\n## 4. Dokumentation und Metadaten\n**Metadatenformat**:  \n- [z. B. DataCite, Dublin Core]  \n\n**Beschreibung der Daten**:  \n- Jede Datei wird durch eine README-Datei dokumentiert, die Informationen über:  \n   - Den Inhalt  \n   - Die Erhebungsmethodik  \n   - Verwendete Software oder Tools enthält.\n- Schlagwörter: [Themenrelevante Begriffe, z. B. \"Machine Learning\", \"Umweltdaten\"]  \n\n**DOI-Zuweisung**:  \n- Die Veröffentlichung erfolgt mit einem DOI über Zenodo.\n\n## 5. Veröffentlichung und Nachnutzung\n**Geplante Veröffentlichung**:  \n- Veröffentlichung auf GitHub und Zenodo nach Akzeptanz des zugehörigen Papers.  \n\n**Lizenzierung**:  \n- CC-BY 4.0 empfohlen für maximale Nachnutzung  \n- (Alternativen: CC-BY-NC 4.0, CC0, MIT-Lizenz)\n\n**Zugänglichkeit**:  \n- Die Daten sind über Zenodo öffentlich zugänglich (Open Access).  \n- Der DOI garantiert die dauerhafte Verfügbarkeit.  \n- Einschränkungen des Zugriffs werden über Embargo-Status Optionen von Zenodo geregelt.\n\n**Interoperabilität:**  \n- Daten werden in offenen Formaten gespeichert (siehe Abschnitt 2, Arten und Umfang der Daten)\n- Metadaten-Standards: DataCite für Beschreibung und DOI-Referenzierung  \n- Ontologien oder kontrollierte Vokabulare zur Standardisierung von Begriffen: Verwendung von [z. B. MeSH, AGROVOC] \n\n**Wiederverwendbarkeit:**  \n- Lizenz: [z. B. MIT, erlaubt die Nachnutzung auch in proprietärer Software unter der Bedingung der Namensnennung]  \n- Vollständige Dokumentation der Daten: [Methoden, Kontext, verwendete Software wie z. B. Python-Skripte mit spezifischen Bibliotheksversionen]\n- Anleitungen für die Nachnutzung: [z. B. siehe README-Datei]\n\n\n**Langfristige Archivierung**:  \n- Zenodo garantiert die Archivierung für mindestens 20 Jahre.\n\n## 6. Verantwortlichkeiten und Ressourcen\n**Datenverantwortliche/r**:  \n- [Ihr Name]  \n\n**Zusätzliche Ressourcen**:  \n- Genutzte Software: [z. B. Python, R]  \n- Infrastruktur: GitHub, Zenodo.  \n\n## 7. Ethik und Datenschutz\n**Datenschutzanforderungen**:  \n- Keine personenbezogenen Daten enthalten.  \n- Sensible Daten wurden entfernt oder anonymisiert.  \n\n**Ethikfreigaben**:  \n- Nicht erforderlich. (Alternative: \"Wurde durch die Ethikkommission genehmigt am [Datum].\") \n\n## 8. Aktualisierungen des Plans\n**Versionierung des DMP**:  \n- Initiale Version: [Datum]  \n- Geplante Überprüfung: [z. B. alle 6 Monate oder nach Projektmeilensteinen]",
+    "title": "7  Anhang",
+    "section": "7.2 Datenmanagementplan: DMP.md",
+    "text": "7.2 Datenmanagementplan: DMP.md\n# Datenmanagementplan (DMP)\n\n## 1. Projektbeschreibung\n**Projektname**: [Titel des Forschungsprojekts]  \n**Verantwortliche*r Forschende*r**: [Ihr Name]  \n**Institution**: [Name der Hochschule oder Forschungseinrichtung]  \n**Förderorganisation (falls zutreffend)**: [Förderorganisation, z. B. DFG]  \n\n### Ziel des Projekts\n[Kurze Beschreibung des Projekts, z. B.:  \n\"Dieses Projekt untersucht [Thema]. Die generierten Daten dienen als Grundlage für die Publikation im Journal [Name] und werden gemäß den FAIR-Prinzipien öffentlich zugänglich gemacht.\"]\n\n## 2. Arten und Umfang der Daten\n**Datentypen**:  \n- [Primärdaten, z. B. experimentelle Messdaten, Umfrageergebnisse, Bilddaten]  \n- [Sekundärdaten, z. B. aus Literatur oder externen Datenquellen]  \n- [Metadaten, z. B. Dokumentation, Kontextbeschreibungen]  \n\n**Umfang der Daten**:  \n- Geschätzte Dateigröße: [z. B. 500 MB]  \n- Anzahl der Dateien: [z. B. 30 CSV-Dateien]  \n\n**Dateiformate**:  \n- Rohdaten: [z. B. CSV, TIFF]  \n- Analysedaten: [z. B. XLSX, JSON]  \n- Dokumentation: [z. B. Markdown, PDF]\n\n## 3. Speicherung und Sicherung\n**Speicherorte**:  \n- **Primäre Speicherung**: GitHub-Repository ([Link hinzufügen])  \n- **Backup-Strategie**: Automatische Sicherung auf lokalen Systemen, Cloud-Diensten (z. B. [Google Drive, OneDrive]), o.a.  \n\n**Versionierung**:  \n- Git wird zur Versionierung und Nachverfolgung von Änderungen verwendet.\n\n**Zugriffsrechte während des Projekts**:  \n- Nur Projektbeteiligte haben während der Erstellung Schreibrechte.  \n- GitHub ermöglicht eine öffentliche Einsicht nach Abschluss des Projekts.\n\n## 4. Dokumentation und Metadaten\n**Metadatenformat**:  \n- [z. B. DataCite, Dublin Core]  \n\n**Beschreibung der Daten**:  \n- Jede Datei wird durch eine README-Datei dokumentiert, die Informationen über:  \n   - Den Inhalt  \n   - Die Erhebungsmethodik  \n   - Verwendete Software oder Tools enthält.\n- Schlagwörter: [Themenrelevante Begriffe, z. B. \"Machine Learning\", \"Umweltdaten\"]  \n\n**DOI-Zuweisung**:  \n- Die Veröffentlichung erfolgt mit einem DOI über Zenodo.\n\n## 5. Veröffentlichung und Nachnutzung\n**Geplante Veröffentlichung**:  \n- Veröffentlichung auf GitHub und Zenodo nach Akzeptanz des zugehörigen Papers.  \n\n**Lizenzierung**:  \n- CC-BY 4.0 empfohlen für maximale Nachnutzung  \n- (Alternativen: CC-BY-NC 4.0, CC0, MIT-Lizenz)\n\n**Zugänglichkeit**:  \n- Die Daten sind über Zenodo öffentlich zugänglich (Open Access).  \n- Der DOI garantiert die dauerhafte Verfügbarkeit.  \n- Einschränkungen des Zugriffs werden über Embargo-Status Optionen von Zenodo geregelt.\n\n**Interoperabilität:**  \n- Daten werden in offenen Formaten gespeichert (siehe Abschnitt 2, Arten und Umfang der Daten)\n- Metadaten-Standards: DataCite für Beschreibung und DOI-Referenzierung  \n- Ontologien oder kontrollierte Vokabulare zur Standardisierung von Begriffen: Verwendung von [z. B. MeSH, AGROVOC] \n\n**Wiederverwendbarkeit:**  \n- Lizenz: [z. B. MIT, erlaubt die Nachnutzung auch in proprietärer Software unter der Bedingung der Namensnennung]  \n- Vollständige Dokumentation der Daten: [Methoden, Kontext, verwendete Software wie z. B. Python-Skripte mit spezifischen Bibliotheksversionen]\n- Anleitungen für die Nachnutzung: [z. B. siehe README-Datei]\n\n**Langfristige Archivierung**:  \n- Zenodo garantiert die Archivierung für mindestens 20 Jahre.\n\n## 6. Verantwortlichkeiten und Ressourcen\n**Datenverantwortliche/r**:  \n- [Ihr Name]  \n\n**Zusätzliche Ressourcen**:  \n- Genutzte Software: [z. B. Python, R]  \n- Infrastruktur: GitHub, Zenodo.  \n\n## 7. Ethik und Datenschutz\n**Datenschutzanforderungen**:  \n- Keine personenbezogenen Daten enthalten.  \n- Sensible Daten wurden entfernt oder anonymisiert.  \n\n**Ethikfreigaben**:  \n- Nicht erforderlich. (Alternative: \"Wurde durch die Ethikkommission genehmigt am [Datum].\") \n\n## 8. Aktualisierungen des Plans\n**Versionierung des DMP**:  \n- Initiale Version: [Datum]  \n- Geplante Überprüfung: [z. B. alle 6 Monate oder nach Projektmeilensteinen]",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
+    ]
+  },
+  {
+    "objectID": "appendix.html#sec-appendix-dmp-health",
+    "href": "appendix.html#sec-appendix-dmp-health",
+    "title": "7  Anhang",
+    "section": "7.3 Datenmanagementplan für deutschsprachige Gesundheitsprojekte: DMP-health.md",
+    "text": "7.3 Datenmanagementplan für deutschsprachige Gesundheitsprojekte: DMP-health.md\n# Datenmanagementplan (DMP)\n\n## 1. Projektübersicht\n- Projekttitel:\n- Institution:\n- Kontakt:\n- Förderer:\n\n## 2. Datentypen\n- Datentypen: (z. B. klinische Messdaten, Fragebögen, Bilddaten)\n- Formate: (CSV, JSON, DICOM, etc.)\n- Datenvolumen:\n\n## 3. Ethik & Datenschutz\n- Ethikvotum: (ja/nein, ID)\n- Einwilligung: (ja/nein)\n  - Nachnutzung: \n- Rechtsgrundlage: (z. B. DSGVO Art. 6/9)\n- Schutzbedarf: \n\n## 4. Anonymisierung\n- Methode:\n  - [ ] anonymisiert\n  - [ ] pseudonymisiert\n- Schlüsselverwaltung:\n- Re-Identifikationsrisiko geprüft: ja/nein\n  - Prüfer: \n\n## 5. Datenspeicherung & Sicherheit\n- Speicherort(e):\n- Zugriffskontrolle:\n- Backup-Strategie:\n- Verschlüsselung: ja/nein\n\n## 6. Dokumentation & Metadaten\n- Metadatenstandard:\n- Codebuch vorhanden: ja/nein\n- Variablenbeschreibung:\n\n## 7. Standards & Interoperabilität\n- Terminologien (z. B. ICD-10, SNOMED CT):\n- Datenstandards (z. B. HL7 FHIR):\n\n## 8. Versionierung\n- Versionierungsmethode: (z. B. Semantic Versioning)\n- Tools: (z. B. GitHub und Zenodo ohne sensible Daten, interne Dienste) \n- Release-Strategie:\n\n## 9. Datenzugang & Sharing\n- Metadaten öffentlich: ja/nein\n- Datenzugang:\n  - [ ] offen\n  - [ ] kontrolliert (DUA erforderlich)\n- Kontakt für Zugang: \n\n## 10. Langzeitarchivierung\n- Repositories: (z. B. GitHub und Zenodo ohne sensible Daten, interne Dienste) \n- Aufbewahrungsdauer:\n- Löschkonzept:\n\n## 11. Verantwortlichkeiten\n- Datenverantwortliche:\n- FDM-Support:\n\n## 12. Rechtliches\n- Verträge (DUA, Kooperationen):\n- Einschränkungen:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
+    ]
+  },
+  {
+    "objectID": "appendix.html#sec-appendix-ic",
+    "href": "appendix.html#sec-appendix-ic",
+    "title": "7  Anhang",
+    "section": "7.4 Informierte Einwilligung: IC.md",
+    "text": "7.4 Informierte Einwilligung: IC.md\n# Informierte Einwilligung zur Teilnahme an einer Studie\n\n## 1. Projekttitel\n\n- Titel:\n- Institution:\n- Verantwortliche Person:\n- Kontakt:\n\n## 2. Hintergrund und Ziel der Studie\n\n[Kurze, verständliche Beschreibung des Zwecks der Studie.]\n\n## 3. Ablauf der Teilnahme\n\n[Kurze, verständliche Beschreibung des Ablaufs der Studie.]\n\n- Dauer:\n- Ort:\n\n## 4. Risiken und Nutzen\n\n- Mögliche Risiken:\n- Erwarteter Nutzen:\n\n## 5. Datenschutz\n\n- Art der Daten: [z. B. Gesundheitsdaten]\n- Verarbeitung: [pseudonymisiert | anonymisiert]\n- Speicherung:\n- Zugriff:\n- Weitergabe:\n\n## 6. Freiwilligkeit\n\nDie Teilnahme ist freiwillig und kann jederzeit ohne Angabe von Gründen\nbeendet werden.\n\n## 7. Widerruf\n\nEin Widerruf der Einwilligung ist jederzeit möglich.\n\n- Kontakt:\n\n## 8. Nutzung der Daten\n\n[Kurze, verständliche Beschreibung des Datennutzung.]\n\n- [ ] Zustimmung zur Nachnutzung für weitere Forschung\n- [ ] Keine Nachnutzung\n\n## 9. Veröffentlichung\n\nErgebnisse werden nur in aggregierter Form veröffentlicht.\n\n## 10. Einwilligungserklärung\n\nIch habe die Informationen gelesen und verstanden und erkläre mich mit\nder Teilnahme einverstanden.\n\n- Name:\n- Datum:\n- Unterschrift:\n\n## 11. Kontakt für Rückfragen\n\n- Name:\n- E-Mail:\n- Telefon:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
+    ]
+  },
+  {
+    "objectID": "appendix.html#sec-appendix-dua",
+    "href": "appendix.html#sec-appendix-dua",
+    "title": "7  Anhang",
+    "section": "7.5 Data Use Agreement: DUA.md",
+    "text": "7.5 Data Use Agreement: DUA.md\n# Data Use Agreement (DUA)\n\n## 1. Parteien\n\n**Datenbereitsteller (Provider):** \n\n- Name: \n- Institution: \n- Kontakt:\n\n**Datennutzende (Recipient):** \n\n- Name: \n- Institution: \n- Kontakt:\n\n## 2. Zweck der Datennutzung\n\nDie Daten dürfen ausschließlich für folgenden Zweck verwendet werden: \n\n- Projekt/Studie: \n- Beschreibung: \n- Laufzeit:\n\nEine Nutzung außerhalb dieses Zwecks ist nicht gestattet.\n\n## 3. Beschreibung der Daten\n\n- Datentypen:\n- Sensitivität: [anonymisiert | pseudonymisiert]\n- Enthaltene Variablen (kurz):\n- Datenumfang:\n\n## 4. Zugriffsrechte\n\n- [ ] Zugriff nur für autorisierte Personen\n- [ ] Weitergabe an Dritte: nicht erlaubt (Standard)\n\n## 5. Datenschutz & Sicherheit\n\n- [ ] Keine Re-Identifikation\n- [ ] Sichere Speicherung\n- [ ] Zugriffskontrolle und Verschlüsselung\n\n## 6. Veröffentlichung\n\n- [ ] Nur aggregierte Ergebnisse\n- [ ] Keine Veröffentlichung von Rohdaten\n\n## 7. Dokumentation\n\n- [ ] Verarbeitungsschritte dokumentieren\n- [ ] Versionierung \n\n## 8. Laufzeit & Löschung\n\n- Startdatum:\n- Enddatum:\n- Nach Ende: [löschen | zurückgeben | archivieren]\n\n## 9. Verstöße\n\n- [ ] Zugriff kann entzogen werden\n- [ ] Rechtliche Schritte möglich\n\n## 10. Rechtliches\n\n- Anwendbares Recht:\n- Gerichtsstand:\n\n## 11. Unterschriften\n\n- Provider:  [Unterschrift]\n- Recipient: [Unterschrift]",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-fair-checklist",
     "href": "appendix.html#sec-appendix-fair-checklist",
-    "title": "6  Anhang",
-    "section": "6.3 Checkliste der FAIR-Prinzipien: FAIR.md",
-    "text": "6.3 Checkliste der FAIR-Prinzipien: FAIR.md\n# FAIR-Checkliste für GitHub & Zenodo\n\n## Findable (Auffindbar)\n- [ ] **F1**: Der Datensatz hat eine eindeutige und dauerhafte **DOI** (z. B. von Zenodo).  \n- [ ] **F2**: Metadaten enthalten einen klaren, beschreibenden **Titel** und **Schlüsselwörter**.  \n- [ ] **F3**: Der Datensatz ist in einem **offenen Repository** (GitHub & Zenodo) gespeichert.  \n- [ ] **F4**: Metadaten sind **durchsuchbar** (z. B. über Zenodo-Suchfunktionen).  \n\n## Accessible (Zugänglich)\n- [ ] **A1**: Der Datensatz ist über eine **öffentliche URL** abrufbar.  \n- [ ] **A1.1**: Daten und Metadaten sind auch nach Ablauf des Projekts verfügbar (Zenodo sichert dies). \n- [ ] **A1.2**: **Metadaten bleiben abrufbar**, auch wenn die Daten entfernt wurden.  \n- [ ] **A2**: Falls Zugriffsbeschränkungen bestehen, sind diese klar dokumentiert.  \n\n## Interoperable (Interoperabel)\n- [ ] **I1**: Datensatz und Metadaten nutzen **offene, standardisierte Formate** (z. B. CSV, JSON, Markdown).  \n- [ ] **I2**: Metadaten enthalten **kontrollierte Vokabulare** oder **standardisierte Begriffe** (z. B. ORCID für Autoren).  \n- [ ] **I3**: Der Datensatz verlinkt relevante **Publikationen, Software oder andere Daten**.  \n\n## Reusable (Nachnutzbar)\n- [ ] **R1**: Metadaten enthalten eine **klare Lizenz** (z. B. CC-BY 4.0 oder MIT für Code).  \n- [ ] **R1.1**: Der Datenmanagementplan (DMP) beschreibt den Datensatz präzise.  \n- [ ] **R1.2**: Der Datensatz enthält eine detaillierte **README.md** zur Nutzung.  \n- [ ] **R1.3**: Die Datenquelle, Entstehung und Verarbeitungsschritte sind dokumentiert (z. B. in der README oder im DMP).  \n\n**Tipp:** Halte die README.md und Metadaten aktuell, um die FAIR-Prinzipien langfristig zu gewährleisten.",
+    "title": "7  Anhang",
+    "section": "7.6 Checkliste der FAIR-Prinzipien: FAIR.md",
+    "text": "7.6 Checkliste der FAIR-Prinzipien: FAIR.md\n# FAIR-Checkliste für GitHub & Zenodo\n\n## Findable (Auffindbar)\n\n- [ ] **F1**: Der Datensatz hat eine eindeutige und dauerhafte **DOI** (z. B. von Zenodo).  \n- [ ] **F2**: Metadaten enthalten einen klaren, beschreibenden **Titel** und **Schlüsselwörter**.  \n- [ ] **F3**: Der Datensatz ist in einem **offenen Repository** (GitHub & Zenodo) gespeichert.  \n- [ ] **F4**: Metadaten sind **durchsuchbar** (z. B. über Zenodo-Suchfunktionen).  \n\n## Accessible (Zugänglich)\n\n- [ ] **A1**: Der Datensatz ist über eine **öffentliche URL** abrufbar.  \n- [ ] **A1.1**: Daten und Metadaten sind auch nach Ablauf des Projekts verfügbar (Zenodo sichert dies). \n- [ ] **A1.2**: **Metadaten bleiben abrufbar**, auch wenn die Daten entfernt wurden.  \n- [ ] **A2**: Falls Zugriffsbeschränkungen bestehen, sind diese klar dokumentiert.  \n\n## Interoperable (Interoperabel)\n\n- [ ] **I1**: Datensatz und Metadaten nutzen **offene, standardisierte Formate** (z. B. CSV, JSON, Markdown).  \n- [ ] **I2**: Metadaten enthalten **kontrollierte Vokabulare** oder **standardisierte Begriffe** (z. B. ORCID für Autoren).  \n- [ ] **I3**: Der Datensatz verlinkt relevante **Publikationen, Software oder andere Daten**.  \n\n## Reusable (Nachnutzbar)\n\n- [ ] **R1**: Metadaten enthalten eine **klare Lizenz** (z. B. CC-BY 4.0 oder MIT für Code).  \n- [ ] **R1.1**: Der Datenmanagementplan (DMP) beschreibt den Datensatz präzise.  \n- [ ] **R1.2**: Der Datensatz enthält eine detaillierte **README.md** zur Nutzung.  \n- [ ] **R1.3**: Die Datenquelle, Entstehung und Verarbeitungsschritte sind dokumentiert (z. B. in der README oder im DMP).  \n\n**Tipp:** Halte die README.md und Metadaten aktuell, um die FAIR-Prinzipien langfristig zu gewährleisten.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-semver-example",
     "href": "appendix.html#sec-appendix-semver-example",
-    "title": "6  Anhang",
-    "section": "6.4 Beispiel für ein Changelog: CHANGELOG.md",
-    "text": "6.4 Beispiel für ein Changelog: CHANGELOG.md\nLegen Sie die Datei CHANGELOG.md auf derselben Ordnerebene wie README.md an:\n# Changelog\n\n## v1.1.0 - 2025-01-10\n- Hinzugefügt: Neue Datenpunkte für [Experiment XYZ].\n- Geändert: Erweiterung der README mit zusätzlichen Analyseschritten.\n\n## v1.0.1 - 2024-12-20\n- Behoben: Fehler in den Variablenbeschreibungen.\n\n## v1.0.0 - 2024-12-01\n- Initiale Veröffentlichung des Datensatzes.",
+    "title": "7  Anhang",
+    "section": "7.7 Beispiel für ein Changelog: CHANGELOG.md",
+    "text": "7.7 Beispiel für ein Changelog: CHANGELOG.md\nLegen Sie die Datei CHANGELOG.md auf derselben Ordnerebene wie README.md an:\n# Changelog\n\n## v1.1.0 - 2025-01-10\n\n- Hinzugefügt: Neue Datenpunkte für [Experiment XYZ].\n- Geändert: Erweiterung der README mit zusätzlichen Analyseschritten.\n\n## v1.0.1 - 2024-12-20\n\n- Behoben: Fehler in den Variablenbeschreibungen.\n\n## v1.0.0 - 2024-12-01\n\n- Initiale Veröffentlichung des Datensatzes.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-metadata",
     "href": "appendix.html#sec-appendix-metadata",
-    "title": "6  Anhang",
-    "section": "6.5 README-Datei für GitHub-Repository: README.md",
-    "text": "6.5 README-Datei für GitHub-Repository: README.md\nBeispiel: Metadaten dieses Dokuments als DataCite JSON generiert von Zenodo:\n{\n  \"creators\": [\n    {\n      \"familyName\": \"sgudenkauf\",\n      \"name\": \"sgudenkauf\",\n      \"nameIdentifiers\": [],\n      \"nameType\": \"Personal\"\n    }\n  ],\n  \"dates\": [\n    {\n      \"date\": \"2025-02-10\",\n      \"dateType\": \"Issued\"\n    },\n    {\n      \"date\": \"2025-02-10\",\n      \"dateType\": \"Updated\"\n    }\n  ],\n  \"descriptions\": [\n    {\n      \"description\": \"Updated Acknowledgments.\",\n      \"descriptionType\": \"Abstract\"\n    }\n  ],\n  \"identifiers\": [\n    {\n      \"identifier\": \"https://zenodo.org/records/14843008\",\n      \"identifierType\": \"URL\"\n    },\n    {\n      \"identifier\": \"10.5281/zenodo.14843008\",\n      \"identifierType\": \"DOI\"\n    },\n    {\n      \"identifier\": \"oai:zenodo.org:14843008\",\n      \"identifierType\": \"oai\"\n    }\n  ],\n  \"publicationYear\": \"2025\",\n  \"publisher\": \"Zenodo\",\n  \"relatedIdentifiers\": [\n    {\n      \"relatedIdentifier\": \"https://github.com/sgudenkauf/quarto-simple-rdm-tutorial/tree/v1.0.3\",\n      \"relatedIdentifierType\": \"URL\",\n      \"relationType\": \"IsSupplementTo\",\n      \"resourceTypeGeneral\": \"Software\"\n    },\n    {\n      \"relatedIdentifier\": \"10.5281/zenodo.14840823\",\n      \"relatedIdentifierType\": \"DOI\",\n      \"relationType\": \"IsVersionOf\"\n    },\n    {\n      \"relatedIdentifier\": \"https://archive.softwareheritage.org/swh:1:dir:fb7dfefa8b9645de237e4eb431fb42c4c331c570;origin=https://doi.org/10.5281/zenodo.14840823;visit=swh:1:snp:e214173932653196d0d9994894ae4045823a443c;anchor=swh:1:rel:02f5937d89e2a1bb94faaf03a5135308a813b4ce;path=sgudenkauf-quarto-simple-rdm-tutorial-2258c18\",\n      \"relatedIdentifierType\": \"URL\",\n      \"relationType\": \"IsIdenticalTo\"\n    }\n  ],\n  \"rightsList\": [\n    {\n      \"rights\": \"MIT License\",\n      \"rightsIdentifier\": \"mit\",\n      \"rightsIdentifierScheme\": \"spdx\",\n      \"rightsUri\": \"https://opensource.org/licenses/MIT\"\n    }\n  ],\n  \"schemaVersion\": \"http://datacite.org/schema/kernel-4\",\n  \"titles\": [\n    {\n      \"title\": \"sgudenkauf/quarto-simple-rdm-tutorial: v1.0.3\"\n    }\n  ],\n  \"types\": {\n    \"resourceType\": \"\",\n    \"resourceTypeGeneral\": \"Software\"\n  },\n  \"version\": \"v1.0.3\"\n}\nBeispiel: Metadaten dieses Dokuments als Dublin Core XML generiert von Zenodo:\n&lt;?xml version='1.0' encoding='utf-8'?&gt;\n&lt;oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\"&gt;\n  &lt;dc:creator&gt;sgudenkauf&lt;/dc:creator&gt;\n  &lt;dc:date&gt;2025-02-10&lt;/dc:date&gt;\n  &lt;dc:description&gt;&amp;lt;p&amp;gt;Updated Acknowledgments.&amp;lt;/p&amp;gt;&lt;/dc:description&gt;\n  &lt;dc:identifier&gt;https://doi.org/10.5281/zenodo.14843008&lt;/dc:identifier&gt;\n  &lt;dc:identifier&gt;oai:zenodo.org:14843008&lt;/dc:identifier&gt;\n  &lt;dc:publisher&gt;Zenodo&lt;/dc:publisher&gt;\n  &lt;dc:relation&gt;https://github.com/sgudenkauf/quarto-simple-rdm-tutorial/tree/v1.0.3&lt;/dc:relation&gt;\n  &lt;dc:relation&gt;https://doi.org/10.5281/zenodo.14840823&lt;/dc:relation&gt;\n  &lt;dc:rights&gt;info:eu-repo/semantics/openAccess&lt;/dc:rights&gt;\n  &lt;dc:rights&gt;MIT License&lt;/dc:rights&gt;\n  &lt;dc:rights&gt;https://opensource.org/licenses/MIT&lt;/dc:rights&gt;\n  &lt;dc:title&gt;sgudenkauf/quarto-simple-rdm-tutorial: v1.0.3&lt;/dc:title&gt;\n  &lt;dc:type&gt;info:eu-repo/semantics/other&lt;/dc:type&gt;\n&lt;/oai_dc:dc&gt;",
+    "title": "7  Anhang",
+    "section": "7.8 README-Datei für GitHub-Repository: README.md",
+    "text": "7.8 README-Datei für GitHub-Repository: README.md\nBeispiel: Metadaten dieses Dokuments in der Version 1.0.3 als DataCite JSON generiert von Zenodo:\n{\n  \"creators\": [\n    {\n      \"familyName\": \"sgudenkauf\",\n      \"name\": \"sgudenkauf\",\n      \"nameIdentifiers\": [],\n      \"nameType\": \"Personal\"\n    }\n  ],\n  \"dates\": [\n    {\n      \"date\": \"2025-02-10\",\n      \"dateType\": \"Issued\"\n    },\n    {\n      \"date\": \"2025-02-10\",\n      \"dateType\": \"Updated\"\n    }\n  ],\n  \"descriptions\": [\n    {\n      \"description\": \"Updated Acknowledgments.\",\n      \"descriptionType\": \"Abstract\"\n    }\n  ],\n  \"identifiers\": [\n    {\n      \"identifier\": \"https://zenodo.org/records/14843008\",\n      \"identifierType\": \"URL\"\n    },\n    {\n      \"identifier\": \"10.5281/zenodo.14843008\",\n      \"identifierType\": \"DOI\"\n    },\n    {\n      \"identifier\": \"oai:zenodo.org:14843008\",\n      \"identifierType\": \"oai\"\n    }\n  ],\n  \"publicationYear\": \"2025\",\n  \"publisher\": \"Zenodo\",\n  \"relatedIdentifiers\": [\n    {\n      \"relatedIdentifier\": \"https://github.com/sgudenkauf/quarto-simple-rdm-tutorial/tree/v1.0.3\",\n      \"relatedIdentifierType\": \"URL\",\n      \"relationType\": \"IsSupplementTo\",\n      \"resourceTypeGeneral\": \"Software\"\n    },\n    {\n      \"relatedIdentifier\": \"10.5281/zenodo.14840823\",\n      \"relatedIdentifierType\": \"DOI\",\n      \"relationType\": \"IsVersionOf\"\n    },\n    {\n      \"relatedIdentifier\": \"https://archive.softwareheritage.org/swh:1:dir:fb7dfefa8b9645de237e4eb431fb42c4c331c570;origin=https://doi.org/10.5281/zenodo.14840823;visit=swh:1:snp:e214173932653196d0d9994894ae4045823a443c;anchor=swh:1:rel:02f5937d89e2a1bb94faaf03a5135308a813b4ce;path=sgudenkauf-quarto-simple-rdm-tutorial-2258c18\",\n      \"relatedIdentifierType\": \"URL\",\n      \"relationType\": \"IsIdenticalTo\"\n    }\n  ],\n  \"rightsList\": [\n    {\n      \"rights\": \"MIT License\",\n      \"rightsIdentifier\": \"mit\",\n      \"rightsIdentifierScheme\": \"spdx\",\n      \"rightsUri\": \"https://opensource.org/licenses/MIT\"\n    }\n  ],\n  \"schemaVersion\": \"http://datacite.org/schema/kernel-4\",\n  \"titles\": [\n    {\n      \"title\": \"sgudenkauf/quarto-simple-rdm-tutorial: v1.0.3\"\n    }\n  ],\n  \"types\": {\n    \"resourceType\": \"\",\n    \"resourceTypeGeneral\": \"Software\"\n  },\n  \"version\": \"v1.0.3\"\n}\nBeispiel: Metadaten dieses Dokuments in der Version 1.0.3 als Dublin Core XML generiert von Zenodo:\n&lt;?xml version='1.0' encoding='utf-8'?&gt;\n&lt;oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\"&gt;\n  &lt;dc:creator&gt;sgudenkauf&lt;/dc:creator&gt;\n  &lt;dc:date&gt;2025-02-10&lt;/dc:date&gt;\n  &lt;dc:description&gt;&amp;lt;p&amp;gt;Updated Acknowledgments.&amp;lt;/p&amp;gt;&lt;/dc:description&gt;\n  &lt;dc:identifier&gt;https://doi.org/10.5281/zenodo.14843008&lt;/dc:identifier&gt;\n  &lt;dc:identifier&gt;oai:zenodo.org:14843008&lt;/dc:identifier&gt;\n  &lt;dc:publisher&gt;Zenodo&lt;/dc:publisher&gt;\n  &lt;dc:relation&gt;https://github.com/sgudenkauf/quarto-simple-rdm-tutorial/tree/v1.0.3&lt;/dc:relation&gt;\n  &lt;dc:relation&gt;https://doi.org/10.5281/zenodo.14840823&lt;/dc:relation&gt;\n  &lt;dc:rights&gt;info:eu-repo/semantics/openAccess&lt;/dc:rights&gt;\n  &lt;dc:rights&gt;MIT License&lt;/dc:rights&gt;\n  &lt;dc:rights&gt;https://opensource.org/licenses/MIT&lt;/dc:rights&gt;\n  &lt;dc:title&gt;sgudenkauf/quarto-simple-rdm-tutorial: v1.0.3&lt;/dc:title&gt;\n  &lt;dc:type&gt;info:eu-repo/semantics/other&lt;/dc:type&gt;\n&lt;/oai_dc:dc&gt;",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#sec-appendix-tooling",
     "href": "appendix.html#sec-appendix-tooling",
-    "title": "6  Anhang",
-    "section": "6.6 Verwendete Softwarewerkzeuge",
-    "text": "6.6 Verwendete Softwarewerkzeuge\nZur Erstellung dieses Leitfadens haben wir verschiedene Softwarewerkzeuge vrewendet. Deren Gebrauch dokumentieren wir gemäß Baresel u. a. (2024). Genannt werden der Name des Werkzeugs, Quelle, Verwendungszweck und Anwendungsbereich.1 Die Angaben sollten den Empfehlungen des APA-Stils für die Angabe von Softwareversionen entsprechen.\n\nOpenAI. (2023). ChatGPT (Version 14. März) [Großes Sprachmodell]. https://chat.openai.com2\n\nÜbersetzung deutsch/englisch (Abstract)\nGenerieren von Vorschlägen für Markdown-Vorlagen (Anhang, Kapitel 3)\nGenerieren von Vorschlägen zu Vorgehen und Struktur (gesamtes Dokument)\n\nMicrosoft Corporation. (2024). Visual Studio Code (Version 1.96.2) [Quelltext-Editor]. https://code.visualstudio.com\n\nEditor zum Schreiben der Quelldateien (gesamtes Projekt)\n\nPosit, PBC. (2024). Quarto (Version 1.118.0) [Dokumentations- und Publishing-Software]. https://quarto.org\n\nÜbersetzen der Quelldateien in Webseite und PDF-Dokument, siehe Verzeichnis docs/ (gesamtes Projekt)\n\nPosit, PBC. (2024). Quarto Extension for Visual Studio Code (Version 1.6.39) [Software-Erweiterung]. https://quarto.org/docs/tools/vscode.html\n\nKomfortable Bedienung von Quarto aus Visual Studio Code heraus (gesamtes Projekt)\nQuarto-Syntaxunterstützung (gesamtes Projekt)\n\n\n\n\n\n\nBaresel, Kira ; Eube, Cornelia ; Knorr, Dagmar ; Lutter, Ly ; Nys, Jasmin de ; Röben, Marieke: KI-Gebrauch im Studienkontext dokumentieren (2024), S. 304839 b. — Artwork Size: 304839 b Medium: application/pdf Publisher: Medien- und Informationszentrum, Leuphana Universität Lüneburg Version Number: 1",
+    "title": "7  Anhang",
+    "section": "7.9 Verwendete Softwarewerkzeuge",
+    "text": "7.9 Verwendete Softwarewerkzeuge\nZur Erstellung dieses Leitfadens haben wir verschiedene Softwarewerkzeuge vrewendet. Deren Gebrauch dokumentieren wir gemäß Baresel u. a. (2024). Genannt werden der Name des Werkzeugs, Quelle, Verwendungszweck und Anwendungsbereich.1 Die Angaben sollten den Empfehlungen des APA-Stils für die Angabe von Softwareversionen entsprechen.\n\nOpenAI. (2023). ChatGPT (Version 14. März) [Großes Sprachmodell]. https://chat.openai.com2\n\nÜbersetzung deutsch/englisch (Abstract)\nGenerieren von Vorschlägen für Markdown-Vorlagen (Anhang, Kapitel 3)\nGenerieren von Vorschlägen zu Vorgehen und Struktur (gesamtes Dokument)\n\nMicrosoft Corporation. (2024). Visual Studio Code (Version 1.96.2) [Quelltext-Editor]. https://code.visualstudio.com\n\nEditor zum Schreiben der Quelldateien (gesamtes Projekt)\n\nPosit, PBC. (2024). Quarto (Version 1.118.0) [Dokumentations- und Publishing-Software]. https://quarto.org\n\nÜbersetzen der Quelldateien in Webseite und PDF-Dokument, siehe Verzeichnis docs/ (gesamtes Projekt)\n\nPosit, PBC. (2024). Quarto Extension for Visual Studio Code (Version 1.6.39) [Software-Erweiterung]. https://quarto.org/docs/tools/vscode.html\n\nKomfortable Bedienung von Quarto aus Visual Studio Code heraus (gesamtes Projekt)\nQuarto-Syntaxunterstützung (gesamtes Projekt)\n\n\n\n\n\n\nBaresel, Kira ; Eube, Cornelia ; Knorr, Dagmar ; Lutter, Ly ; Nys, Jasmin de ; Röben, Marieke: KI-Gebrauch im Studienkontext dokumentieren (2024), S. 304839 b. — Artwork Size: 304839 b Medium: application/pdf Publisher: Medien- und Informationszentrum, Leuphana Universität Lüneburg Version Number: 1",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
     "objectID": "appendix.html#footnotes",
     "href": "appendix.html#footnotes",
-    "title": "6  Anhang",
+    "title": "7  Anhang",
     "section": "",
     "text": "Wir verzichten auf die zusätzliche Nennung der “genutzten Funktion” gemäß Baresel u. a. (2024), da sie sich aus unserer Sicht mit dem Vewendungszweck doppelt. Siehe auch Tabelle 2 in Baresel u. a. (2024).↩︎\nDie genaue Versionsnummer von ChatGPT ist nicht öffentlich zugänglich. Wir verwenden daher das Datum der letzten Aktualisierung als Versionsbezeichnung.↩︎",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Anhang</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Anhang</span>"
     ]
   },
   {
@@ -314,7 +464,7 @@
     "href": "references.html",
     "title": "Literaturverzeichnis",
     "section": "",
-    "text": "Data models to\nGO-FAIR. In: Nature Genetics Bd.\n49 (2017), Nr. 7, S. 971–971\n\n\nDOI\nHandbook, 2023\n\n\nBals, Fred: Top\nopen source licenses and legal risk for developers, 2024\n\n\nBaresel, Kira ; Eube, Cornelia ; Knorr,\nDagmar ; Lutter, Ly ; Nys, Jasmin de ; Röben,\nMarieke: KI-Gebrauch\nim Studienkontext dokumentieren (2024), S. 304839 b.\n— Artwork Size: 304839 b Medium: application/pdf Publisher: Medien- und\nInformationszentrum, Leuphana Universität Lüneburg Version Number: 1\n\n\nBasili, Victor R. ; Caldiera, Gianluigi ; Rombach, H. Dieter: Goal\nQuestion Metric Paradigm. In:\nEncyclopedia of Software Engineering - 2\nVolume Set : John Wiley & Sons, Inc.,\n1994 — ISBN \\#1-54004-8, S. 528–532\n\n\nCharollais, Patrick:\nECMA-404, 2nd edition, December 2017\n\n\nHausenblas, M. ; Wilde, E. ; Tennison,\nJ.: URI\nFragment Identifiers for the text/csv\nMedia Type ( Nr. RFC7111) : RFC\nEditor, 2014\n\n\nMalinowski, Christine: File\nNaming Best Practices :\nMASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2020\n\n\nWilkinson, Mark D. ; Dumontier, Michel ; Aalbersberg, IJsbrand Jan ; Appleton, Gabrielle ; Axton, Myles ; Baak,\nArie ; Blomberg, Niklas ; Boiten, Jan-Willem ; u. a.: The FAIR\nGuiding Principles for scientific data\nmanagement and stewardship. In: Scientific Data Bd. 3\n(2016), Nr. 1, S. 160018",
+    "text": "Data models to\nGO-FAIR. In: Nature Genetics Bd.\n49 (2017), Nr. 7, S. 971–971\n\n\nDOI\nHandbook, 2023\n\n\nBals, Fred: Top\nopen source licenses and legal risk for developers, 2024\n\n\nBaresel, Kira ; Eube, Cornelia ; Knorr,\nDagmar ; Lutter, Ly ; Nys, Jasmin de ; Röben,\nMarieke: KI-Gebrauch\nim Studienkontext dokumentieren (2024), S. 304839 b.\n— Artwork Size: 304839 b Medium: application/pdf Publisher: Medien- und\nInformationszentrum, Leuphana Universität Lüneburg Version Number: 1\n\n\nBasili, Victor R. ; Caldiera, Gianluigi ; Rombach, H. Dieter: Goal\nQuestion Metric Paradigm. In:\nEncyclopedia of Software Engineering - 2\nVolume Set : John Wiley & Sons, Inc.,\n1994 — ISBN \\#1-54004-8, S. 528–532\n\n\nCharollais, Patrick:\nECMA-404, 2nd edition, December 2017\n\n\nHausenblas, M. ; Wilde, E. ; Tennison,\nJ.: URI\nFragment Identifiers for the text/csv\nMedia Type ( Nr. RFC7111) : RFC\nEditor, 2014\n\n\nMalinowski, Christine: File\nNaming Best Practices :\nMASSACHUSETTS INSTITUTE OF TECHNOLOGY, 2020\n\n\nPommerening, Klaus ; Drepper, Johannes ; Helbing, Krister ; Ganslandt, Thomas: Leitfaden zum\nDatenschutz in medizinischen\nForschungsprojekten: Generische\nLösungen der TMF 2.0 : Medizinisch\nWissenschaftliche Verlagsgesellschaft, 2014 — ISBN 978-3-95466-295-1\n\n\nPuchkovskiy, Alexandr ; Gudenkauf, Stefan: Service-basiertes\nHigh-Performance Privacy\nPreserving Record Linkage für die\nEpidemiologische Datenauswertung. In:\n60. Jahrestagung der Deutschen\nGesellschaft für Medizinische\nInformatik, Biometrie und\nEpidemiologie e. V. (GMDS\n2015). Krefeld, 2015\n\n\nWilkinson, Mark D. ; Dumontier, Michel ; Aalbersberg, IJsbrand Jan ; Appleton, Gabrielle ; Axton, Myles ; Baak,\nArie ; Blomberg, Niklas ; Boiten, Jan-Willem ; u. a.: The FAIR\nGuiding Principles for scientific data\nmanagement and stewardship. In: Scientific Data Bd. 3\n(2016), Nr. 1, S. 160018",
     "crumbs": [
       "Literaturverzeichnis"
     ]
