@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.1 - 2026-06-05
+- Fixed heading in appendix
+
 ## v2.0.0 - 2026-06-05
 - Added chapter for RDM in Health
 - Changed License from MIT to CC BY-SA

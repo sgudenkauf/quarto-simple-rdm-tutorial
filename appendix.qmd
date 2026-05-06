@@ -421,7 +421,7 @@ Legen Sie die Datei `CHANGELOG.md` auf derselben Ordnerebene wie `README.md` an:
 - Initiale Veröffentlichung des Datensatzes.
 ```
 
-## README-Datei für GitHub-Repository: `README.md` {#sec-appendix-metadata}
+## Beispiele für Metadaten mit Zenodo{#sec-appendix-metadata}
 
 
 Beispiel: Metadaten dieses Dokuments in der Version 1.0.3 als [DataCite JSON](https://schema.datacite.org/) generiert von Zenodo:
