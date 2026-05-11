@@ -30,6 +30,16 @@
     ]
   },
   {
+    "objectID": "index.html#online-repositories",
+    "href": "index.html#online-repositories",
+    "title": "Veröffentlichung von Forschungsdaten",
+    "section": "Online-Repositories",
+    "text": "Online-Repositories\nZenodo: https://zenodo.org/records/14930305\nGitHub: https://github.com/sgudenkauf/quarto-simple-rdm-tutorial",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
     "objectID": "01_Grundlagen.html",
     "href": "01_Grundlagen.html",
     "title": "1  Der Weg zur Datenveröffentlichung",

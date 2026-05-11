@@ -8,7 +8,9 @@ This document is intended for researchers at institutions with limited resources
 
 ## Nutzungsbedingungen {.unnumbered}
 
-Dieses Werk von [Stefan Gudenkauf](https://orcid.org/0000-0002-1813-3448) steht unter der Lizenz [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+ Dieses Werk von [Stefan Gudenkauf](https://orcid.org/0000-0002-1813-3448) steht unter der Lizenz [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
+
+![](/img/by-sa.svg)
 
 ## Werkseintrag {.unnumbered}
 
@@ -31,3 +33,10 @@ Dieses Werk von [Stefan Gudenkauf](https://orcid.org/0000-0002-1813-3448) steht 
  Bitte geben Sie als Quellenangabe folgende Referenz an:
 
 > Gudenkauf, S. (2026). *Veröffentlichung von Forschungsdaten: Ein Leitfaden mit Markdown für GitHub und Zenodo*. Institut für Wirtschaftsinformatik (IfW), Jade Hochschule. [https://doi.org/10.5281/zenodo.14840823](https://doi.org/10.5281/zenodo.14840823)
+
+## Online-Repositories {.unnumbered}
+
+Zenodo: [https://zenodo.org/records/14930305](https://zenodo.org/records/14930305)
+
+GitHub: [https://github.com/sgudenkauf/quarto-simple-rdm-tutorial](https://github.com/sgudenkauf/quarto-simple-rdm-tutorial)
+

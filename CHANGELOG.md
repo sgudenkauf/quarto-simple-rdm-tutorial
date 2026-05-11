@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.0 - 2026-11-05
+- Added license information
+- Added repo links
+
 ## v2.0.1 - 2026-06-05
 - Fixed heading in appendix
 
